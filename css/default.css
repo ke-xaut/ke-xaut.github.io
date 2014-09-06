@@ -90,8 +90,10 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-image:url(https://dnqgz544uhbo8.cloudfront.net/_/fp/img/bestof/june-2013.CaUUbO2jIECgCmldhmxCCA.jpg);
 }
 .project .aside{
-    background-image:url('https://d233eq3e3p3cv0.cloudfront.net/max/1000/0*cF2i1ZosSP_UTJig.jpeg')
+    background-image:url('https://d233eq3e3p3cv0.cloudfront.net/max/1000/0*cF2i1ZosSP_UTJig.jpeg');
+    left:960px;
 }
+
 .index-content .section { margin-left:0%; padding-top:80px; padding-right:15%; ;}
 
 .index-content .artical-list { width:70%; margin:0 auto; }
@@ -134,7 +136,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 #menuIndex li.h1{font-size:14px;font-weight:normal;padding-left:0;margin-bottom:10px;}
 #menuIndex li.h3{padding-left:25px;}
 
-.home-menu { position:fixed; top:40px; left:25px; z-index:5; font-size:0; }
+.home-menu { position:fixed; top:40px; left:25  px; z-index:5; font-size:0; }
 .home-menu-icon { line-height:38px; padding:0 8px; display:inline-block; color:#fff; font-size:18px;  background:#000; }
 .home-follow { margin-left:2px; line-height:38px; padding:0 8px; display:inline-block; color:#fff; font-size:18px; background:#000;  }
 .home-menu-icon:hover,
