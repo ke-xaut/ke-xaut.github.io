@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Meet Your Next Cofounder
+category: project
 description: How to Meet Your Next Cofounder
 ---
 

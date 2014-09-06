@@ -5,7 +5,7 @@ layout: home
 <div class="index-content project">
     <div class="section">
         <ul class="artical-cate">
-            <li class="on" style="text-align:center"><a href="/project"><span>Project</span></a></li>
+            <li class="on" style="text-align:center"><a href="/project"><span>事件</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
