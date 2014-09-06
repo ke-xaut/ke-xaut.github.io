@@ -493,7 +493,7 @@
 		<div class="about">	   
 				<div class="row">
 				    <div class="col-md-12">			
-				        <h3>OUR BLOG</h3>
+				        <h3><a href="blog">BLOG</a></h3>
 				        <span></span>
 				        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum Lorem Ipsum has been.</p>
 					</div>
@@ -501,12 +501,12 @@
 		</div>	
 		 <div class="blog-bottom">
 	        <div class="blog-left">
-	        	<img src="images/camera.jpg" alt=""/>
+	        	<img src="images/camera.jpg" alt="/Welcome/"/>
 	        </div>
 	        <span class="circle"></span>
 	         <div class="blog-right">       	
 	        	<h6>10 April 2014</h6>
-	        	<h4>Printing and typesetting industry</h4>
+	        	<h4><a href="/Welcome/">Printing and typesetting industry</a></h4>
 	        	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
 	        </div>
 	        <div class="clearfix"></div>
@@ -535,34 +535,6 @@
 	        </div>
 	        <div class="clearfix"> </div>
          </div>
-
-
-
-<div class="index-content opinion">
-    <div class="section">
-        <ul class="artical-list">
-        {% for post in site.categories.blog %}
-            <li>
-                <h2>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </h2>
-                <div class="title-desc">{{ post.description }}</div>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
 
          <div class="post"><a href="blog">All  Posts</a></div>
 	</div>
