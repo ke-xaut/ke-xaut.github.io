@@ -29,7 +29,7 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	 background:#ffffff;
 	font-size:100%;
 }
@@ -115,11 +115,11 @@ body {
 }
 
 #topnav nav ul li a {
-  font-size: 0.8725em;
+  font-size: 1.5em;
 	color: #D3D1D1;
 	padding:7px 0;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	margin:0px 20px;
 	font-weight: 500;
 	text-decoration:none;
@@ -127,7 +127,7 @@ body {
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
- 	font-family: 'Raleway', sans-serif;
+ 	font-family: '微软雅黑', sans-serif;
 }
 #topnav nav ul li a:hover {
   border-bottom: 4px solid #7B6C63;
@@ -212,17 +212,17 @@ body {
  	text-align: center;
  }
  .about h3{
- 	font-family: 'Raleway', sans-serif;
+ 	font-family: '微软雅黑', sans-serif;
  	font-size: 1.7em;
  	color:#7B6C63;
  	font-weight: 600;
  }
 .about p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 0.8755em;
+	font-family: '微软雅黑', sans-serif;
+	font-size: 1.00em;
 	color: #444444;
 	font-weight: 400;
-	width: 45%;
+	width: 90%;
 	line-height: 1.9em;
 	margin: 2% auto 0;
 }
@@ -238,15 +238,15 @@ body {
 	margin-left: 15%;
 }
 .about-left h4{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
  	font-size: 1.3em;
  	color:#7B6C63;
  	font-weight: 600;
  	margin-top: 12%;
 }
 .about-left p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 0.8755em;
+	font-family: '微软雅黑', sans-serif;
+	font-size: 1.00em;
 	color: #444444;
 	font-weight: 400;
 	line-height: 1.9em;
@@ -256,7 +256,7 @@ body {
 	width: 57%;
 }
 .about-left p a{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	font-size: 0.8755em;
 	color: #333;
 	padding: 13px 20px;
@@ -288,13 +288,13 @@ body {
 	padding:6% 0;
 }
 .service h3{
-	font-family: 'Raleway', sans-serif;
- 	font-size: 1.3em;
+	font-family: '微软雅黑', sans-serif;
+ 	font-size: 1.5em;
  	color:#7B6C63;
  	font-weight: 600;
 }
 .service p{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	font-size: 0.8755em;
 	color: #444444;
 	font-weight: 400;
@@ -303,7 +303,7 @@ body {
 	margin: 2% auto 0;
 }
 .service h4 a{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
  	font-size: 1.1em;
  	color:#7B6C63;
  	font-weight: 600;
@@ -326,7 +326,7 @@ body {
 	background:url("../images/skills.jpg") no-repeat;
 }
 .skills h4{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
  	font-size: 1.1em;
  	color:#fff;
  	font-weight: 600;
@@ -528,13 +528,13 @@ div#portfolio {
 	padding:6% 0;
 }
 .port-text h4{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
  	font-size: 1.1em;
  	color:#fff;
  	font-weight: 600;
 }
 .port-text p {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	font-size: 0.8755em;
 	color: #777;
 	font-weight: 400;
@@ -564,7 +564,7 @@ div#portfolio {
 	left: 0;
 }
 .view h2 {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	text-align: left;
@@ -606,7 +606,7 @@ div#portfolio {
    border-radius: 0px;
 }
 .view-fourth h2 {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -619,7 +619,7 @@ div#portfolio {
    transition: all 0.5s ease-in-out;
 }
 .view-fourth p.a {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
 	opacity: 0;
@@ -754,7 +754,7 @@ div.team-member {
 	left: 0;
 }
 .view1 h2 {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	text-align: left;
@@ -796,7 +796,7 @@ div.team-member {
    border-radius: 0px;
 }
 .view-fourth1 h2 {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -809,7 +809,7 @@ div.team-member {
    transition: all 0.5s ease-in-out;
 }
 .view-fourth1 p.a {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
 	opacity: 0;
@@ -880,14 +880,14 @@ div.team-member {
 	border: 2px solid #7C4F34;
 }
 .team-member ul li p a {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
    font-size:1.4em;
    color:#333;
    text-decoration:none;
   text-align: center;
 }
 .team-member ul li p a label{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
    font-size:0.7755em;
    color:#333;
 }
@@ -960,18 +960,18 @@ div.team-member {
 	height: 330px;
 }
 .blog-left h6{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color:#7B6C63;
 	font-size: 1em;
 }
 .blog-left h4{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color:#333;
 	font-size: 1.4em;
 	margin:2% 0;
 }
 .blog-left p{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color:#444444;
 	font-size: 0.8755em;
 	line-height: 1.9em;
@@ -985,18 +985,18 @@ div.team-member {
 	padding-bottom: 5%;
 }
 .blog-right h6{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color:#7B6C63;
 	font-size: 1em;
 }
 .blog-right h4{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color:#333;
 	font-size: 1.4em;
 	margin:2% 0;
 }
 .blog-right p{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color:#444444;
 	font-size: 0.8755em;
 	line-height: 1.9em;
@@ -1050,7 +1050,7 @@ div.team-member {
 	background: #F5F5F5;
 }
 .contact h3{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	font-size: 1.7em;
 	color: #7B6C63;
 	font-weight: 600;
@@ -1058,7 +1058,7 @@ div.team-member {
 	padding-bottom: 2%;
 }
 .contact p.a {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	font-size: 1.2em;
 	padding: 0.5em 0;
 	color: #BEBEBE;
@@ -1074,7 +1074,7 @@ div.team-member {
 	background:none;
 	padding: 10px;
 	margin: 20px 10px;
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	font-size: 0.875em;
 	color: #545046;
 	outline: none;
@@ -1092,7 +1092,7 @@ div.team-member {
 	margin-bottom: 20px;
 	margin-top: 2%;
 	height: 120px;
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	font-size: 0.875em;
 	color: #545046;
 	outline: none;
@@ -1103,7 +1103,7 @@ div.team-member {
 	border-right: none;
 }
 .contact input[type="submit"]{
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	font-size: 0.875em;
 	color: #7B6C63;
 	margin-top: 12px;
@@ -1132,20 +1132,20 @@ div.team-member {
 	background:#222222;
 }
 .footer-top p {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color: #696969;
 	font-size: 0.8755em;
 	line-height: 1.9em;
 	padding: 3% 0;
 }
 .footer-top h4 {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color: #fff;
 	font-size: 1.3em;
 	padding-bottom: 13%;
 }
 .footer-top span {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color: #6D6D6D;
 	font-size: 1em;
 	padding-bottom: 13%;
@@ -1166,21 +1166,21 @@ div.team-member {
 	color: #fff;
 }
 .footer-top p.a {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color: #696969;
 	font-size: 0.8755em;
 	line-height: 1.9em;
 	padding: 0% 0 3%;
 }
 .footer-top p.b {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color: #696969;
 	font-size: 0.8755em;
 	line-height: 1.9em;
 	padding: 0% 0 2%;
 }
 .footer-top h4.a {
-	font-family: 'Raleway', sans-serif;
+	font-family: '微软雅黑', sans-serif;
 	color: #fff;
 	font-size: 1.3em;
 	padding-bottom: 11%;
