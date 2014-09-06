@@ -94,7 +94,8 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     left: 960px;
 }
 
-.index-content .section { margin-left:29%; padding-top:80px; padding-right:15%; ;}
+.index-content .section { margin-left:29%; padding-top:80px; padding-right:15%;}
+.index-content .section1 { margin-left:1%; padding-top:80px; padding-right:15%;}
 
 .index-content .artical-list { width:70%; margin:0 auto; }
 .index-content .artical-list li { margin-bottom:70px; }
@@ -163,7 +164,9 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 
     .index-content .aside { position:relative; width:100%; height:300px; max-width:none; }
     .index-content .section { margin-left:0; padding-right:0; }
+    .index-content .section1 { margin-left:0; padding-right:0; }   
     .index-content .section ul { width:85%; }
+    .index-content .section1 ul { width:85%; }
     .index-content .cate-bar { width:85%; }
     .index-content .artical-cate { margin-top:50px; }
 
