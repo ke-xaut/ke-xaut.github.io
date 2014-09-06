@@ -3,7 +3,7 @@ layout: home
 ---
 
 <div class="index-content project">
-    <div class="section">
+    <div class="section1">
         <ul class="artical-cate">
             <li class="on" style="text-align:center"><a href="/project"><span>事件</span></a></li>
         </ul>
