@@ -23,8 +23,11 @@ layout: default
         <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
         <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
         {{ content }}
+
+        <div id="disqus_container">
+            <div class="ds-thread" data-thread-key={{ page.id }} data-title={{ page.title }} data-url="www. nameiswangyu.com/{{ page.url }}"></div>
+             </div>
     </div>
-    
     <div class="sidenav">
         <h2>Blog</h2>
         <ul class="artical-list">
