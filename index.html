@@ -1,79 +1,68 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<title>Home</title>
-
+	<head>
+		<title>Home</title>
 		<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<link rel="stylesheet" href="css/default.css" type="text/css" />	
 		<link rel="shortcut icon" href="kexie.ico" type="image/x-icon" />
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-		<!--  jquery plguin -->
-	    <script type="text/javascript" src="js/jquery.min.js"></script>
+    	<!-- da-slider -->
+		<link rel="stylesheet" type="text/css" href="css/slider.css" />
 		<!--start slider -->
 	    <link rel="stylesheet" href="css/fwslider.css" media="all">
 		<script src="js/jquery-ui.min.js"></script>
 		<script src="js/css3-mediaqueries.js"></script>
 		<script src="js/fwslider.js"></script>
-	<!--end slider -->
-	 <script type="text/javascript">
+		<!--end slider -->
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--  jquery plguin -->
+	    <script type="text/javascript" src="js/jquery.min.js"></script>
+	 	<script type="text/javascript">
 			$(document).ready(function() {
-			
 				var defaults = {
 		  			containerID: 'toTop', // fading element id
 					containerHoverID: 'toTopHover', // fading element hover id
 					scrollSpeed: 1200,
 					easingType: 'linear' 
-		 		};
-				
-				
+		 		};		
 				$().UItoTop({ easingType: 'easeOutQuart' });
-				
 			});
 		</script>
 		<!-- start testimonials -->
-		<!-- da-slider -->
-		<link rel="stylesheet" type="text/css" href="css/slider.css" />
 		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-<script type="text/javascript" src="js/jquery.cslider.js"></script>
-	<script type="text/javascript">
+		<script type="text/javascript" src="js/jquery.cslider.js"></script>
+		<script type="text/javascript">
 			$(function() {
-
 				$('#da-slider').cslider({
 					autoplay : true,
 					bgincrement : 450
 				});
-
 			});
 		</script>
 		<script type="text/javascript">
 			$(function() {
-
 				$('#da-slider1').cslider({
 					autoplay : true,
 					bgincrement : 450
 				});
-
 			});
 		</script>
-
-
-</head>
+	</head>
 <body>
 <!-- start header -->
 <div class="header_bg">
 	<!-- start header -->
 <div class="header_bg">
-	<!-----start-conatiner---->
+	<!---start-conatiner-->
 		<div class="container">
-			<!-----start-header---->
+			<!--start-header-->
 			<div class="header">
-					<!----start-top-nav---->
+					<!--start-top-nav-->
 		      <header id="topnav">
 			        <nav>
 			        		 <ul>
@@ -90,14 +79,14 @@
 			        	<a href="#" id="navbtn">Nav Menu</a>
 			       <div class="clearfix"> </div>
 		        </header>
-		         <!----start-top-nav---->
+		         <!--start-top-nav-->
 		    </div>
-		   <!-----start-header---->
+		   <!---start-header-->
 		</div>
 	</div>
 		<script type="text/javascript"  src="js/menu.js"></script>
 </div>
-<!----start-images-slider---->
+<!--start-images-slider-->
 		<div class="images-slider">
 			<!-- start slider -->
 		    <div id="fwslider">
@@ -222,60 +211,6 @@
 		</div>	
    </div>
 </div>
-<!-- skills 
-<div class="skills text-center">
-	<div class="container">
-        <h4>宣言</h4>
-       <div class="client">		
-		<div class="pie-wrapper progress-95 style-2">
-		  <span class="label">100<span class="smaller">%</span></span>
-		  <div class="pie">
-		    <div class="left-side half-circle"></div>
-		    <div class="right-side half-circle"></div>
-		  </div>
-		  <div class="shadow"></div>
-		  <h3>求知</h3>
-		</div>
-		<div class="pie-wrapper progress-0 style-2">
-		  <span class="label">0<span class="smaller">%</span></span>
-		  <div class="pie">
-		    <div class="left-side half-circle"></div>
-		    <div class="right-side half-circle"></div>
-		  </div>
-		  <div class="shadow"></div>
-		   <h3>懈怠</h3>
-		</div>
-		<div class="pie-wrapper progress-95 style-2">
-		  <span class="label">95<span class="smaller">%</span></span>
-		  <div class="pie">
-		    <div class="left-side half-circle"></div>
-		    <div class="right-side half-circle"></div>
-		  </div>
-		  <div class="shadow"></div>
-		   <h3>MANAGEMENT</h3>
-		</div>
-		<div class="pie-wrapper progress-45 style-2">
-		  <span class="label">45<span class="smaller">%</span></span>
-		  <div class="pie">
-		    <div class="left-side half-circle"></div>
-		    <div class="right-side half-circle"></div>
-		  </div>
-		  <div class="shadow"></div>
-		   <h3>CONSULTANCY</h3>
-		</div>
-		<div class="pie-wrapper progress-75 style-2">
-		  <span class="label">75<span class="smaller">%</span></span>
-		  <div class="pie">
-		    <div class="left-side half-circle"></div>
-		    <div class="right-side half-circle"></div>
-		  </div>
-		  <div class="shadow"></div>
-		   <h3>PROMOTION</h3>
-		</div>	
-	</div>
-   </div>
-</div>
--->
 <!-- portfolio -->
 <div class="portfilio" id="portfolio">
 	<div class="container">
@@ -543,10 +478,10 @@
          <div class="post"><a href="blog">All  Posts</a></div>
 	</div>
 </div>
-<!---start-contact---->
+<!---start-contact-->
 
 
-<!---End-contact---->
+<!---End-contact-->
 <div class="footer-top" id="contact">
 	<div class="container">	<div>
 		<h3><center style="font-size: 30px;padding-bottom: 70px;color: #7B6C63;">联系方式</center></h3>
@@ -612,8 +547,6 @@
 			});
 		});
 	</script>
-
 		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
-
 </body>
 </html>
