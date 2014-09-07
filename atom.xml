@@ -17,9 +17,9 @@ layout: nil
    {% for post in site.posts limit:10 %}
    <entry>
      <title>{{ post.title }}</title>
-     <link href="http://ke-xaut.github.io/kexie{{ post.url }}"/>
+     <link href="http://kx.nameiswangyu.com{{ post.url }}"/>
      <updated>{{ post.date | date_to_xmlschema }}</updated>
-     <id>http://ke-xaut.github.io/kexie{{ post.id }}</id>
+     <id>http://kx.nameiswangyu.com{{ post.id }}</id>
      <content type="html">{{ post.content | xml_escape }}</content>
    </entry>
    {% endfor %}
