@@ -22,4 +22,3 @@ layout: home
         </ul>
     </div>
     </div>
-</div>
