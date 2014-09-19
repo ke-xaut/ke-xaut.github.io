@@ -49,6 +49,26 @@ layout: default
             <div class="ds-thread" data-thread-key={{ page.id }} data-title={{ page.title }} data-url="http://ke-xaut.github.io/{{ page.url }}"></div>
              </div>
     </div>
+    <div class="sidenav">
+        <h2>Blog</h2>
+        <ul class="artical-list">
+        {% for post in site.categories.blog%}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+        <h2>Opinion</h2>
+        <ul class="artical-list">
+        {% for post in site.categories.opinion%}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+        <h2>Project</h2>
+        <ul class="artical-list">
+        {% for post in site.categories.project%}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
 
 </div>
 
