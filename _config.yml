@@ -5,7 +5,7 @@ pygments: true
 paginate: 8
 permalink: /:title
 
-title: Wangyu
+title: 自动化科协
 url: http://ke-xaut.github.io/kexie/
 feed: /atom.xml
-author_info: <a href="http://ke-xaut.github.io/kexie/">Wangyu</a>
+author_info: <a href="http://ke-xaut.github.io/kexie/">Kexie</a>
