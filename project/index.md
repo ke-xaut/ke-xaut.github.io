@@ -6,6 +6,8 @@ layout: home
     <div class="section1" >
         <ul class="artical-cate">
             <li class="on" style="text-align:center"><a href="/project"><span>事件</span></a></li>
+            <li style="text-align:center"><a href="/blog"><span>博客</span></a></li>
+            <li class="on" style="text-align:right"><a href="/notice"><span>通知</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
@@ -20,7 +22,5 @@ layout: home
             </li>
         {% endfor %}
         </ul>
-    </div>
-    <div class="aside" style="left:960px">
     </div>
 </div>

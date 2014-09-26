@@ -5,6 +5,8 @@ layout: home
 <div class="index-content project">
     <div class="section1" >
         <ul class="artical-cate">
+            <li class="text-align:left" style="text-align:center"><a href="/project"><span>事件</span></a></li>
+            <li style="text-align:center"><a href="/blog"><span>博客</span></a></li>
             <li class="on" style="text-align:center"><a href="/notice"><span>通知</span></a></li>
         </ul>
 
