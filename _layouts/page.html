@@ -6,11 +6,11 @@ layout:           default
         <center><h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1></center>
        <center><p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p></center>
         <!--share-->
-        <p align=right>{% include share %}</p>
+        <p align=right>{% include share1 %}</p>
         <!--share-->
         <br>
         {{ content }}
-        <p align=right>{% include share %}</p>
+        <p align=right>{% include share1 %}</p>
         <!--share-->
     <div id="disqus_container">
         <div class="ds-thread" data-thread-key={{ page.id }} data-title={{ page.title }} data-url="http://ke-xaut.github.io/{{ page.url }}">
