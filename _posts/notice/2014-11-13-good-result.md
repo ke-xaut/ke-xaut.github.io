@@ -2,8 +2,8 @@
 layout: post
 title: 理奥杯科技节评审结果
 category: notice
-description: 理奥杯，对我们又是一次蜕变，来看看比赛结果吧~
+description: 理奥杯结果来啦，速速前来围观吧~
 ---
 
 
-[点击这里下载Excel文档](/downlode/1112.xls)
+今年各路豪杰表现的的相当出色啊，点击[这里](/downlode/1112.xls) 下载Excel文档看看结果吧，尽情仰慕这些大神吧，为之颤抖吧，小子！
