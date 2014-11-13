@@ -70,10 +70,10 @@
 		                 <div class="slide_content">
 		                    <div class="slide_content_wrap">
 		                    	 <!-- Text description -->
-		                        <p class="description">我，机器人</p>
+		                        <p class="description">{{ site.posts[0] }}</p>
 		                        <!-- /Text description -->
 		                        <!-- Text title -->
-		                         <h4 class="title">“我，机器人”<span>科技主题制作活动开始报名啦~ </span></h4>
+		                         <h4 class="title"><span>{{ site.posts[0].description }}</span></h4>
 		                        <!-- /Text title -->
 		                        <p class="description"><a href="robot-contest">Read More <img src="images/more.png" alt=""/></a></p>
 		                        
@@ -93,10 +93,10 @@
 		                <div class="slide_content">
 		                    <div class="slide_content_wrap">
 		                    	 <!-- Text description -->
-		                        <p class="description">我与科协</p>
+		                        <p class="description">{{ site.posts[1] }}</p>
 		                        <!-- /Text description -->
 		                        <!-- Text title -->
-		                        <h4 class="title">朱虹老师<span>讲述</span>她与科协的<span>点点滴滴</span></h4>
+		                        <h4 class="title"><span>{{ site.posts[1].description }}</span></span></h4>
 		                        <!-- /Text title -->
 		                        <p class="description"><a href="Teacher-zhu-kexie-with-me" target="_blank">Read More<img src="images/more.png" alt=""/></a></p>
 		                        <div class="slide-btns description">	                      
@@ -113,10 +113,10 @@
 		                 <div class="slide_content">
 		                    <div class="slide_content_wrap">
 		                    	 <!-- Text description -->
-		                        <p class="description">理奥杯科技节</p>
+		                        <p class="description">{{ site.posts[2] }}</p>
 		                        <!-- /Text description -->
 		                        <!-- Text title -->
-		                        <h4 class="title"> 告诉你什么是Think Different</h4>
+		                        <h4 class="title"><span>{{ site.posts[2].description }}</span></h4>
 		                        <!-- /Text title -->
 		                        <p class="description"><a href="/bigthing.html" target="_blank">Read more <img src="images/more.png" alt=""/></a></p>
 		                        <div class="slide-btns description">	                      
@@ -430,9 +430,9 @@
 		</div>	
 		 <div class="blog-bottom">
 		 	<div class="blog-right">       	
-	        	<h6>21 Sep 2014</h6>
-	        	<h4><a href="/we-are-family/">一句口号：科协一家</a></h4>
-	        	<p>当宣言变为空话，我们将失去灵魂。</p>
+	        	<h6>{{ site.categories.blog[0].date|date:"%Y.%m.%d" }}</h6>
+	        	<h4><a href="xautkx.com/{{ site.categories.blog[0].url }}">{{ site.categories.blog[0].title }}</a></h4>
+	        	<p>{{ site.categories.blog[0].description }}</p>
 	        </div>
 	        <div class="blog-left">       	
 	        	<h6>22 Sep 2014</h6>
