@@ -5,6 +5,10 @@ description: 有一群人大声嚷嚷着自己是黑客，但他们不是。
 category: blog
 ---
 
+**本文转发自[Barret](http://www.kerneltravel.net/jiqiao/hacker.html)**
+
+**英文原稿：[Eric Steven Raymond](http://catb.org/~esr/faqs/hacker-howto.html)**
+
 ## 为什么会有这份文档？
 
 作为 [Jargon File](http://www.tuxedo.org/jargon) 的编辑和 一些其他有名的类似性质文章的作者，我经常收到充满热情的网络新手的邮件提问（确实如此） “我如何才能成为一名出色的黑客？”非常奇怪的是，似乎没有任何的FAQ或者网络文档来说明这个十分重要的问题，因此我写了一份。
@@ -370,6 +374,3 @@ Windows用户不要满足于 Visual Basic。 它会教给你坏习惯，而且�
 
 答：在本份文档的某个地方我已经提到过何处可以得到最常用的免费Unix。 要做一名黑客，你需要自立自强，以及自学能力。现在开始吧……
 
-**本文转发自[Barret](http://www.kerneltravel.net/jiqiao/hacker.html)**
-
-**英文原稿：[Eric Steven Raymond](http://catb.org/~esr/faqs/hacker-howto.html)**
