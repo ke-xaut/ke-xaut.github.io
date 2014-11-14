@@ -99,7 +99,7 @@ layout: nil
 		                        <p class="description">{{ site.posts[1].title }}</p>
 		                        <!-- /Text description -->
 		                        <!-- Text title -->
-		                        <h4 class="title"><span>{{ site.posts[1].description }}</span></span></h4>
+		                        <h4 class="title"><span>{{ site.posts[1].description }}</span></h4>
 		                        <!-- /Text title -->
 		                        <p class="description"><a href="http://xautkx.com/{{ site.posts[1].url }}" target="_blank">Read More<img src="images/more.png" alt=""/></a></p>
 		                        <div class="slide-btns description">	                      
@@ -129,17 +129,6 @@ layout: nil
 		            </div>
 
 		        	<!--first page end-->
-
-
-
-		        	
-
-
-		        	
-
-		          
-
-
 
 		            <!--/slide -->
 		        </div>
@@ -224,9 +213,9 @@ layout: nil
 						     <img src="images/interface/peixun.jpg" alt=""/>
 							 <div class="mask">	
 							      <div class="border">                   
-									   <h2>大二成员培训</h2>
+									   <h2>{{ site.categories.project[0] }}</h2>
 									   <span></span>
-									   <p class="a">TRAINING</p>		                       
+									   <p class="a">{{ site.categories.project[0].date|date:"%Y-%m-%d" }}</p>		                       
 								  </div>                                                 
 							 </div>	
 							 </a>	
@@ -236,9 +225,9 @@ layout: nil
 						     <img src="images/interface/xxb.png" alt=""/>
 							 <div class="mask">	
 							      <div class="border">                   
-									   <h2>	新星杯</h2>
+									  <h2>{{ site.categories.project[1] }}</h2>
 									   <span></span>
-									   <p class="a">CONTEST</p>		                       
+									   <p class="a">{{ site.categories.project[1].date|date:"%Y-%m-%d" }}</p>	                       
 								  </div>                                                 
 							 </div>		
 						</div>	
@@ -247,9 +236,9 @@ layout: nil
 						     <img src="images/item/liaobei.jpg" alt=""/>
 							 <div class="mask">	
 							      <div class="border">                   
-									   <h2><a hre="intro_LAB">理奥杯 </a></h2>
+									 <h2>{{ site.categories.project[2] }}</h2>
 									   <span></span>
-									   <p class="a">CONTEST</p>		                       
+									   <p class="a">{{ site.categories.project[2].date|date:"%Y-%m-%d" }}</p>	           
 								  </div>                                                 
 							 </div>	
 
@@ -259,9 +248,9 @@ layout: nil
 						     <img src="images/item/jiangzuo.jpg" alt=""/>
 							 <div class="mask">	
 							      <div class="border">                   
-									   <h2>讲座</h2>
+									  <h2>{{ site.categories.project[3] }}</h2>
 									   <span></span>
-									   <p class="a">LECTURE</p>		                       
+									   <p class="a">{{ site.categories.project[3].date|date:"%Y-%m-%d" }}</p>	              
 								  </div>                                                 
 							 </div>		
 						</div>	
