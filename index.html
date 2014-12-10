@@ -33,7 +33,17 @@ title: 首页
         </li>
     {% endfor %}
     
-    
+    <h1>近期发布</h1>
+
+    {% for i in (0..3) %}
+        <li>
+            <div class="title-date"><p class="date">{{ site.posts[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
+            <h2>
+                <a href="http://xautkx.com/{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
+            </h2>
+            <div class="title-desc">{{ site.posts[i].description }}</div>
+        </li>
+    {% endfor %}
     </ul>
 </div>
             
