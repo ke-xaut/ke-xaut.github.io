@@ -2,6 +2,7 @@
 layout: post
 title: 硬件学习资源
 category: learning
+tag: resource
 description: 硬件学习资源暂时欠缺，欢迎大家补充。
 ---
 

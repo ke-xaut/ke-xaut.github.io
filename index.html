@@ -9,8 +9,19 @@ title: 首页
     
     <ul class="artical-list">
 
-    <h1>近期博客</h1>
 
+    <h1>近期发布</h1>
+    {% for i in (0..3) %}
+        <li>
+            <div class="title-date"><p class="date">{{ site.posts[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
+            <h2>
+                <a href="http://xautkx.com/{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
+            </h2>
+            <div class="title-desc">{{ site.posts[i].description }}</div>
+        </li>
+    {% endfor %}
+
+    <h1>近期博客</h1>
     {% for i in (0..3) %}
         <li>
             <div class="title-date"><p class="date">{{ site.categories.blog[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
@@ -22,7 +33,6 @@ title: 首页
     {% endfor %}
     
     <h1>近期通知</h1>
-
     {% for i in (0..3) %}
         <li>
             <div class="title-date"><p class="date">{{ site.categories.notice[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
@@ -30,18 +40,6 @@ title: 首页
                 <a href="http://xautkx.com/{{ site.categories.notice[i].url }}">{{ site.categories.notice[i].title }}</a>
             </h2>
             <div class="title-desc">{{ site.categories.notice[i].description }}</div>
-        </li>
-    {% endfor %}
-    
-    <h1>近期发布</h1>
-
-    {% for i in (0..3) %}
-        <li>
-            <div class="title-date"><p class="date">{{ site.posts[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
-            <h2>
-                <a href="http://xautkx.com/{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
-            </h2>
-            <div class="title-desc">{{ site.posts[i].description }}</div>
         </li>
     {% endfor %}
     </ul>
