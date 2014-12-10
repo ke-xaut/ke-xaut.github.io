@@ -9,18 +9,18 @@ title: 关于
 
 ## 意见&建议
 
-　　西安理工大学-自动化与信息工程学院-科学与技术协会感谢各方对我协会的大力支持,如你有任何意见或者建议，请发送给我们发送邮件至管理员邮箱ke_xaut@163.com，或者点击这里留言<a class="fa fa-envelope fa-fw" href="suggestion"></a>。
+　　西安理工大学-自动化与信息工程学院-科学与技术协会感谢各方对我协会的大力支持,如你有任何意见或者建议，请发送给我们发送邮件至管理员邮箱ke_xaut@163.com，或者点击这里留言<a class="fa fa-envelope fa-fw" href="message"></a>。
 
 ## 通讯地址
 
-Add : 教五楼科协办公室
+<i class="fa fa-paper-plane fa-fw"></i>**Add:** 教五楼科协办公室
 
-Tel : 029-82318560-8005
+<i class="fa fa-phone fa-fw"></i>**Tel:** 029-82318560-8005
 
 ## 联系方式
 
-**微信：**扫描二维码关注微信平台
+<i class="fa fa-weixin fa-fw"></i>**微信：**扫描二维码关注微信平台
 
 ![自动化科协微信](images/icon/kexieweixin.jpg)
 
-**官网邮箱:**xaut_auto_st@163.com
+<i class="fa fa-envelope fa-fw"></i>邮箱:**官网邮箱:**xaut_auto_st@163.com

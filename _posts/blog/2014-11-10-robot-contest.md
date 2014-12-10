@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我，机器人
-category: project
+category: blog
 description: “我，机器人”科技主题制作活动开始报名啦~
 ---
 “我，机器人”科技主题制作活动开始报名啦~
