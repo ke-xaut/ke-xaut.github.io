@@ -3,53 +3,39 @@ layout: default
 ---
 
 <link rel="stylesheet" href="/js/prettify/prettify.css"/>
-<style type="text/css">
-    body { background:#e8e8e8; }
-    @media screen and (max-width: 750px){
-        body { background:#fff; }
-    }
-    @media screen and (max-width: 1020px){
-        body { background:#fff; }
-    }
-</style>
-
-
 
 <div id="content">
     <div class="entry">
-        <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
-        <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
-        <!--share-->
-        <p align=right>{% include share %}</p>
-        <!--share-->
-        <br>
-        {{ content }}
-        <p align=right>{% include share %}</p>
-        <!--share-->
-        <div id="disqus_container">
-            <div class="ds-thread" data-thread-key={{ page.id }} data-title={{ page.title }} data-url="http://ke-xaut.github.io/{{ page.url }}"></div>
+         <div class="entry-header">
+            <div class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></div>
+            <div class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</div>
         </div>
-    </div>
-    <div class="sidenav">
-        <h2><a href="/blog">博客</a></h2>
-        <ul class="artical-list">
-        {% for post in site.categories.blog%}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-        </ul>
-        <h2><a href="/project">事件</a></h2>
-        <ul class="artical-list">
-        {% for post in site.categories.project%}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-        </ul>
-        <h2><a href="/project">通知</a></h2>
-        <ul class="artical-list">
-        {% for post in site.categories.notice  %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-        </ul>
-      </div>
+        <div class="index"></div>   <!--js 在此插入目录-->
+        {{ content }}
+            <!-- share begin -->
+    <div id="share">{% include share %}</div>
+    <!--  share end  --> 
+        <div class="article-other-infor">
+        	<p><i class="fa fa-pencil fa-fw"></i>{{ page.date|date:"%Y.%m.%d" }} . {% if page.tags[0] %}<a href="/tags.html"><i class="fa fa-tag fa-fw"></i>{{ page.tags[0] }}</a>{% endif %}</p>   
+            <p><i class="fa fa-bullhorn fa-fw"></i>本文采用<a href ="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh_TW">【CC BY-NC-ND 4.0授权】</a>允许转载但请注明原创地址。</p>
 
+            {% if page.previous %}
+              <p><i class="fa fa-angle-double-left fa-fw"></i>上一篇：<a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></p>
+            {% endif %}
+
+            {% if page.next %}
+              <p><i class="fa fa-angle-double-right fa-fw"></i>下一篇:<a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a></p>
+            {% endif %}
+            <p><i class="fa fa-home fa-fw"></i><a href="/">返回首页</a></p>
+        </div> 
+    </div>
+
+    <!-- comment begin -->     
+    {% include comment %}
+    <div id="disqus_container">
+            <div class="ds-thread" data-thread-key={{ page.id }} data-title={{ page.title }} data-url="wy-ei.com/{{ page.url }}"></div>
+    </div>
+    <!--  comment end  --> 
 </div>
+
 

@@ -1,0 +1,19 @@
+---
+layout: page
+title: 标签
+header: Posts By Tag
+group: navigation
+---
+
+
+
+{% include JB/setup %}
+<div class="category">
+{% for tag in site.tags %} 
+  <h2>{{ tag[0] }}</h2>
+  <ul class>
+    {% assign pages_list = tag[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+</div>

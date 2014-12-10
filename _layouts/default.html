@@ -1,62 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--
-    * Author:        科协
-    -->
     <meta charset="utf-8" />
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="author" content="kexie" />
-    <meta name="renderer" content="webkit">
-    <meta name="description" content="kexie's website" />
+    <meta name="author" content="Wangyu" />
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="/css/default.css" type="text/css" />
-    <link rel="shortcut icon" href="/kexie.ico" type="image/x-icon" />
-    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <!-- font-awesome -->
+    <link href="/assets/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-<script src="/js/post.js" type="text/javascript"></script>
-<script type="text/javascript">
-    var duoshuoQuery = {short_name:"nameiswangyu"};
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-</script>
-
-    <div class="home-menu">
-        <div class="home-icon-con">
-        <ul>
-            <li><a class="home-menu-icon" href="/">回到主页</a></li>
-        </ul>
+    <script src="/js/post.js" type="text/javascript"></script>
+    <div class="head">
+        <div class="header">
+            <div class="header-nav">
+                <a href="/"><i class="fa fa-pencil-square fa-fw"></i><span>Blog</span></a>
+                <a href="/categories.html"><i class="fa fa-align-justify fa-fw"></i><span>Category</span></a>
+                <a href="/tags.html"><i class="fa fa-tags fa-fw"></i><span>Tag</span></a>
+                <a href="/message"><i class="fa fa-comments fa-fw"></i><span>Message</span></a>
+                <a href="/about"><i class="fa fa-paper-plane fa-fw"></i><span>About</span></a>            
+            </div>
         </div>
     </div>
 
     {{ content }}
 
-    <script type="text/javascript">
-        $(function(){
-            $('.home-follow').click(function(e){
-                e.preventDefault();
-
-                if($('.home-contact').is(':visible')){
-                    $('.home-contact').slideUp(100);
-                }else{
-                    $('.home-contact').slideDown(100);
-                }
-            });
-        })
-    </script>
-    <div class="tongji">
-    <script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0346d5aa12eba088ce8bd156f5b93710' type='text/javascript'%3E%3C/script%3E"));
-</script>
+    <div id="footer">
+        <div class="content">
+            <p>Copyright &copy; 2014.Science and Technology Association.</p>
+        </div>
     </div>
+    <!--<div id="tongji">
+        {% include tongji %}
+    </div>
+    -->
+    <a href="#" id="toTop" style="display: block;"></a>
 </body>
 </html>

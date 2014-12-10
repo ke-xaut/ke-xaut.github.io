@@ -2,10 +2,13 @@ auto: true
 
 markdown: rdiscount
 pygments: true
-paginate: 8
+paginate: 100
 permalink: /:title
 
 title: 自动化科协
 url: http://xautkx.com
 feed: /atom.xml
 author_info: <a href="http://xautkx.com">Kexie</a>
+
+JB:
+  tags_path : /tags.html

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div id="content">
+    <div class="entry">
+         <div class="entry-header">
+            <div class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></div>
+            <div class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</div>
+        </div>
+        {{ content }}
+          
+    </div>
+    <!-- comment begin -->     
+    {% include comment %}
+    <div id="disqus_container">
+            <div class="ds-thread" data-thread-key={{ page.id }} data-title={{ page.title }} data-url="wy-ei.com/{{ page.url }}"></div>
+    </div>
+    <!--  comment end  --> 
+</div>
+
