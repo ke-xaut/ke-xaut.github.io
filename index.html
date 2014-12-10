@@ -5,11 +5,13 @@ title: 首页
 
 
 
-<div class="index-content blog">
-   
+<div class="index-content">
+    
     <ul class="artical-list">
-    <h2>近期博客</h2>
-    {% for i in 0..3 %}
+
+    <h1>近期博客</h1>
+
+    {% for i in (0..3) %}
         <li>
             <div class="title-date"><p class="date">{{ site.categories.blog[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
             <h2>
@@ -18,6 +20,19 @@ title: 首页
             <div class="title-desc">{{ site.categories.blog[i].description }}</div>
         </li>
     {% endfor %}
+    
+    <h1>近期通知</h1>
+
+    {% for i in (0..3) %}
+        <li>
+            <div class="title-date"><p class="date">{{ site.categories.notice[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
+            <h2>
+                <a href="http://xautkx.com/{{ site.categories.notice[i].url }}">{{ site.categories.notice[i].title }}</a>
+            </h2>
+            <div class="title-desc">{{ site.categories.notice[i].description }}</div>
+        </li>
+    {% endfor %}
+
     </ul>
 </div>
             
