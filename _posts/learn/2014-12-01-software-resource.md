@@ -2,7 +2,7 @@
 layout: post
 title: 前段学习资源
 category: learning
-tag: resourceSoft
+tag: resource
 description: 包含前段学习资料，html,css,JavaScript等
 ---
 

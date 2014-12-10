@@ -7,8 +7,8 @@ title: 学习
 <div class="index-content blog">
    
     <ul class="artical-list">
-    <h2>学习资源(软件相关)</h2>
-    {% for post in site.tags.resourceSoft %}
+    <h1>学习资源</h1>
+    {% for post in site.tags.resource %}
         <li>
             <div class="title-date"><p class="date">{{ post.date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
             <h2>
@@ -18,8 +18,9 @@ title: 学习
         </li>
     {% endfor %}
 
-    <h2>学习资源(硬件相关)</h2>
-    {% for post in site.tags.resourceHard %}
+    
+    <h1><a href="/programing-challenge">编程挑战</a></h1>
+    {% for post in site.tags.programing %}
         <li>
             <div class="title-date"><p class="date">{{ post.date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
             <h2>
@@ -28,8 +29,6 @@ title: 学习
             <div class="title-desc">{{ post.description }}</div>
         </li>
     {% endfor %}
-
-
 
     </ul>
 
