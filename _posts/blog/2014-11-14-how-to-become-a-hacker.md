@@ -3,6 +3,7 @@ layout: post
 title: 如何成为一名黑客？
 description: 有一群人大声嚷嚷着自己是黑客，但他们不是。
 category: blog
+tag: 学习
 ---
 
 **本文转发自[Barret](http://www.kerneltravel.net/jiqiao/hacker.html)**

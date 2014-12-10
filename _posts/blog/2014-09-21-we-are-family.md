@@ -3,6 +3,7 @@ layout: post
 category: blog
 title:  一句口号：科协一家
 descripthion: 当宣言变为空话，我们将失去灵魂。
+tag: 感想
 ---
 
 >来自科协这个家庭里的伙伴们，因为think different而汇聚于此，追求新潮，紧跟科技的步伐，坚决创新。

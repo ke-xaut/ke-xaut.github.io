@@ -79,6 +79,9 @@ padding-left: 10px;}
 .index-content{margin:auto;height: auto;}
 .index-content .artical-list li { margin-bottom:10px;}
 .index-content .artical-list h2 { font-weight: bolder;font-size: 16px; }
+.index-content .artical-list h1 a { color: #000;}
+.index-content .artical-list h1 a:hover { color:#E50053; text-decoration:none; }
+
 .index-content h2 { font-size:20px; margin-bottom:5px; word-break: break-all;display: inline;font-family: "Microsoft YaHei","tahoma","Helvetica","sans-serif"}
 .index-content h2 a { color: #000;}
 .index-content h2 a:hover { color:#E50053; text-decoration:none; }
@@ -110,7 +113,7 @@ padding-left: 10px;}
 
 /***************Wiki Style*****************/
 .wiki {margin-bottom: 70px;margin-top: 70px;}
-.wiki h1{cursor:pointer;margin-bottom: 10px;}
+.wiki h2{cursor:pointer;margin-bottom: 10px;}
 .wiki ul{margin-left:30px;margin-bottom:10px;list-style:disc}
 .wiki ul li{margin-bottom:5px;}
 .wiki ul ul{list-style:circle;margin-top:10px;margin-bottom:10px;}

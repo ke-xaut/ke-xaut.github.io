@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 前段学习资源
+title: 前端学习资源
 category: learning
 tag: resource
 description: 包含前段学习资料，html,css,JavaScript等
