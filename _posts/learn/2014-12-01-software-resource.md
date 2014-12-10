@@ -1,6 +1,9 @@
 ---
-layout: page
-title: 学习资源
+layout: post
+title: 前段学习资源
+category: learning
+tag: resourceSoft
+description: 包含前段学习资料，html,css,JavaScript等
 ---
 
 <div class="wiki">
@@ -273,37 +276,6 @@ title: 学习资源
         <li><a href="http://blog.csdn.net/tony1130/archive/2008/10/25/3137494.aspx">拥抱Mercurial---选择分布式版本控制工具</a></li>
         <li><a href="http://blog.csdn.net/meteor1113/archive/2009/07/16/4350408.aspx">几个分布式vcs比较</a></li>
         <li><a href="http://en.wikipedia.org/wiki/Comparison_of_revision_control_software">Comparison of revision control software</a></li>
-        <li>代码片段管理：</li>
-        <ul>
-            <li><a href="http://gist.github.com/">gist@github</a></li>
-            <li><a href="http://notepad.cc/">notepad.cc</a></li>
-            <li><a href="http://snipt.org/">Snipt.org</a></li>
-            <li><a href="http://paste.ubuntu.org.cn/">Ubuntu Paste</a></li>
-            <li><a href="http://pastebin.com/">Pastebin</a></li>
-            <li><a href="http://paste.pocoo.org">Lodge It!</a></li>
-        </ul>
-        <li>SVN相关：</li>
-        <ul>
-            <li><a href="http://svnbook.red-bean.com/" title="最详细的SVN资料">Subversion 与版本控制</a></li>
-            <li><a href="http://www.iusesvn.com/subversion/tortoisesvn_doc/1.4/">TortoiseSVN 中文帮助手册(v1.4.1)</a> <a href="http://tortoisesvn.net/docs/release/TortoiseSVN_zh_CN/index.html">v1.6.8</a></li>
-            <li><a href="http://tortoisesvn.tigris.org/">Tigris.org</a> - for Windows. </li>
-            <li><a href="http://www.subversion.org.cn/">Subversive中文站</a></li>
-            <li><a href="http://subclipse.tigris.org/">Subclipse</a></li>
-            <li><a href="http://www.eclipse.org/subversive/">Subversive</a></li>
-            <li><a href="http://rabbitvcs.org/">RabbitVCS</a> - for Linux. </li>
-            <li><a href="http://xuming.net/2010/04/rabbitvcs.html">Ubuntu下最好用的SVN客户端</a></li>
-            <li><a href="http://www.open.collab.net/scdocs/ddUsingSVN_command-line.html.zh-cn">SVN 命令行</a></li>
-        </ul>
-        <li>Mercurial相关：</li>
-        <ul>
-            <li><a href="http://mercurial.selenic.com/">Mercurial</a> | <a href="http://mercurial.selenic.com/wiki/ChineseTutorial">Mercurial 使用教程</a></li>
-            <li><a href="http://hginit.com/">Hg Init: a Mercurial tutorial</a></li>
-            <li><a href="http://hgbook.red-bean.com/">Mercurial: The Definitive Guide</a> <a href="http://hgbook.red-bean.com/read/">read</a></li>
-            <li><a href="http://leeiio.me/googlecode-converting-svn-to-hg/">在Google Code上用 Mercurial 取代 Subversion 管理你的项目</a></li>
-            <li><a href="http://www.cn-cuckoo.com/2010/03/20/distributed-version-control-is-here-to-stay-baby-1436.html">乔尔谈软件终结篇：分布式版本控制系统的时代到来了</a> - 讲到了分布式版本控制的精髓：管理变更，而不是管理版本。</li>
-            <li><a href="http://stevelosh.com/blog/2010/08/a-git-users-guide-to-mercurial-queues/">A Git User’s Guide to Mercurial Queues</a></li>
-            <li>Mercurial托管服务：<a href="http://bitbucket.org/">Mercurial hosting - bitbucket.org</a> | <a href="http://www.fogcreek.com/kiln/">KilnHg</a></li>
-        </ul>
         <li>Git相关：</li>
         <ul>
             <li><a href="http://git-scm.com/">Git</a> - the Fast Version Control System. </li>

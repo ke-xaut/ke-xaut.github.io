@@ -1,0 +1,37 @@
+---
+layout: page
+title: 学习
+---
+
+
+<div class="index-content blog">
+   
+    <ul class="artical-list">
+    <h2>学习资源(软件相关)</h2>
+    {% for post in site.tags.resourceSoft %}
+        <li>
+            <div class="title-date"><p class="date">{{ post.date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
+            <h2>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <div class="title-desc">{{ post.description }}</div>
+        </li>
+    {% endfor %}
+
+    <h2>学习资源(硬件相关)</h2>
+    {% for post in site.tags.resourceHard %}
+        <li>
+            <div class="title-date"><p class="date">{{ post.date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
+            <h2>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <div class="title-desc">{{ post.description }}</div>
+        </li>
+    {% endfor %}
+
+
+
+    </ul>
+
+
+</div>

@@ -8,7 +8,7 @@ permalink: /:title
 title: 自动化科协
 url: http://xautkx.com
 feed: /atom.xml
-author_info: <a href="http://xautkx.com">Kexie</a>
+author_info: <a href="http://xautkx.com">西安理工大学自动化科协</a>
 
 JB:
   tags_path : /tags.html
