@@ -8,16 +8,16 @@ title: 首页
 <div class="index-content blog">
    
     <ul class="artical-list">
-    {% for post in site.posts %}
+    <h2>近期博客</h2>
+    {% for i in 0..3 %}
         <li>
-            <div class="title-date"><p class="date">{{ post.date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
+            <div class="title-date"><p class="date">{{ site.categories.blog[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
             <h2>
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <a href="http://xautkx.com/{{ site.categories.blog[i].url }}">{{ site.categories.blog[i].title }}</a>
             </h2>
-            <div class="title-desc">{{ post.description }}</div>
+            <div class="title-desc">{{ site.categories.blog[i].description }}</div>
         </li>
     {% endfor %}
     </ul>
 </div>
-
-
+            
