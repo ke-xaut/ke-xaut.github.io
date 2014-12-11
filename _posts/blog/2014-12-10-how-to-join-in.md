@@ -55,13 +55,19 @@ github pages 就是github替你解析的这个网页，原始域名是 `用户�
 
 **做法：**
 
-1. 打开git，进入到一个空的文件夹输入下面的命令：
-![clone1](http://xautkx.com/images/blog/howto/clone1.png)
+## 1. 打开git，进入到一个空的文件夹输入下面的命令：
+
+`git clone https://github.com/ke-xaut/ke-xaut.github.io.git`
+
+下面这个方法需要将公钥添加到仓库所在的github账号上。
+
+`git clone git@github.com:ke-xaut/ke-xaut.github.io.git`
+
 其中`git clone` 后面跟着的网址可以在下图显示的地方查看到
 ![clone](http://xautkx.com/images/blog/howto/clone.png)
 这一步可能会花费一点时间，约5分钟，由于是国外的网站，所以网速较慢。也可以
 
-## 修改网站
+## 2. 修改网站
 
 打开clone下来的文件夹以后你就可以看见,文件夹大致是这个样子
 
@@ -110,15 +116,17 @@ github pages 就是github替你解析的这个网页，原始域名是 `用户�
 这个layout指明使用_layout文件夹中的那个模板。title指明文章的标题，其他的都顾名思义了吧。
 
 
+## 3.发布修改
+
 现在你准备要修改了，你需要做的是，打开git 输入下面的第一条命令。输完之后一直回车就好了。（用你自己的邮箱替换下面的邮箱地址）
 
  	$ ssh-keygen -t rsa -C "邮件地址@youremail.com"
     Generating public/private rsa key pair.
     Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):<回车就好>
 
-然后，在你的用户跟目录下，也就是这个目录`C:\Users\wangyu` 里面有一个叫做`.ssh`的文件夹。打开看到一个名叫做`id_rsa.pub`的文件，你可以将其中的内容发给管理员`nameiswangyu@gmail.com` ，当管理员将这个公钥添加到github上面以后你就可以提交内容了。（因为必须取得管理员信任才可以修改，所以必须添加这样一个公钥）
+然后，在你的用户跟目录下，也就是这个目录`C:\Users\wangyu` 里面有一个叫做`.ssh`的文件夹。打开看到一个名叫做`id_rsa.pub`的文件，你可以将其中的内容发给管理员`ke_xaut@163.com` ，当管理员将这个公钥添加到github上面以后你就可以提交内容了。（因为必须取得管理员信任才可以修改，所以必须添加这样一个公钥）
 
 
 这个时候，你可以修改内容，然后使用git里面的push操作将修改推送到github的仓库中。然后你就完成了修改了。
 
-有一点我需要补充的是，这个确实不难，但是需要知道的东西比较多，有感兴趣的同学可以当面找管理员。邮箱[nameiswangyu@gmail.com]。针对上面的内容，许多地方考虑时间问题，不能一一详细说明，针对不了解的地方，可以上网搜索。也欢迎大家，补充以上内容。
+有一点我需要补充的是，这个确实不难，但是需要知道的东西比较多，有感兴趣的同学可以当面找管理员。邮箱[ke_xaut@163.com]。针对上面的内容，许多地方考虑时间问题，不能一一详细说明，针对不了解的地方，可以上网搜索。也欢迎大家，补充以上内容。
