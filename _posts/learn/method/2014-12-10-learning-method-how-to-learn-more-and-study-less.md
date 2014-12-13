@@ -2,7 +2,7 @@
 layout: post
 title: 如何高效学习
 category: learning
-tag: resource
+tag: method
 description: Did you think your learning method at school is good? coming and see what is 'Learn more,study less.' 
 ---
 
