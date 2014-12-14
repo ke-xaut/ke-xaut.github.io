@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 编程挑战
+title: 学习方法
 ---
 
 <div class="index-content blog">
