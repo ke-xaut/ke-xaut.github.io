@@ -1,8 +1,8 @@
 ﻿---
 layout: post
 title: tips to make c program more effective
-description: 让 C 程序更高效的 10 个建议
 category: learning 
+description: 让 C 程序更高效的 10 个建议。
 ---
 
 **本文转自: [oschina](http://www.oschina.net/news/20329/tips-to-make-c-program-effective/)**
@@ -44,6 +44,7 @@ void str_print1 ( char *str )
     }
  
 }
+
 ```
 请注意 这两个函数的功能相似。然而，第一个函数调用strlen（）函数多次，而第二个函数只调用函数strlen（）一次。因此第一个函数性能明显比第二个好。（更新：原作者应该是笔误，把第一个函数写成优于第二个，否则自相矛盾。）
 
@@ -73,6 +74,7 @@ int multiply1 ( int *num1 , int *num2 )
     return *num1;
  
 }
+
 ```
 同样，这两个函数具有类似的功能。所不同的是在第一个函数（ 1 for reading *num1 , 2 for reading *num2 and 2 for writing to *num1）有5个内存的引用，而在第二个函数是只有2个内存引用（one for reading *num2 and one for writing to *num1）。现在你认为哪一个好些？
 
@@ -98,6 +100,7 @@ struct {
     int i;
  
 }str_2;
+
 ```
 假设一个字符需要1个字节，short占用2个字节和int需要4字节的内存。起初，我们会认为上面定义的结构是相同的，因此占据相同数量的内存。然而，而str_1占用12个字节，第二个结构只需要8个字节？这怎么可能呢？
 
@@ -130,6 +133,7 @@ if ( 1 = x ) {
     printf("%d",x);   // Compilation error
  
 }
+
 ```
 使用“=”赋值运算符，替代“==”相等运算符，这是个常见的输入错误。 常数项放在左侧，将产生一个编译时错误，让你轻松捕获你的错误。注：“=”是赋值运算符。 b = 1会设置变量b等于值1。 “==”相等运算符。如果左侧等于右侧，返回true，否则返回false。
 
@@ -146,6 +150,7 @@ INT_PTR a , b;
 # define INT_PTR int*;
  
 INT_PTR a , b;
+
 ```
 在这个宏定义中，a是一个指向整数的指针，而b是只有一个整数声明。使用typedef a和b都是 整数的指针。
 
@@ -185,6 +190,7 @@ int main()
     return 0;
  
 }
+
 ```
 
 ## 7、使用Memoization，以避免递归重复计算
@@ -211,6 +217,7 @@ int fib ( n )
     }
  
 }
+
 ```
 注：在这里，我们考虑Fibonacci 系列从1开始，因此，该系列看起来：1，1，2，3，5，8，…
 
@@ -243,6 +250,7 @@ int fib( int n , int* value )
     }
     return value[ n ];                // Returning the value
 }
+
 ```
 这里calc_fib( n )函数被main()调用。
 　
@@ -277,6 +285,7 @@ void wild_example()
     printf("%d",*ptr );
  
 }
+
 ```
 当遭遇这些指针，程序通常是”怪异“的表现。
 
