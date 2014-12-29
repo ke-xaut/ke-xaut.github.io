@@ -2,8 +2,7 @@
 layout: post
 title: tips to make c program more effective
 description: 让 C 程序更高效的 10 个建议
-category: learning
-tag: tips 
+category: learning 
 ---
 
 **本文转自: [oschina](http://www.oschina.net/news/20329/tips-to-make-c-program-effective/)**
