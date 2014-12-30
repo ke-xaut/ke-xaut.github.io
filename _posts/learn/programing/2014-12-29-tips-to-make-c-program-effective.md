@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: [tips to make c program more effective]
+title: tips to make c program more effective
 category: learning
 description: 让 C 程序更高效的 10 个建议
 ---
@@ -9,7 +9,7 @@ description: 让 C 程序更高效的 10 个建议
 
 **英文原稿：[fortystones](http://www.fortystones.com/tips-to-make-c-program-effective/)**
 
-  代码之美，不仅在于为一个给定问题找到解决方案，而且还在代码的简单性、有效性、紧凑性和效率（内存）。代码设计比实际执行更难 。因此，每一个程序员当用C语言编程时，都应该记着这些东西。本文向你介绍规范你的C代码的10种方法。
+代码之美，不仅在于为一个给定问题找到解决方案，而且还在代码的简单性、有效性、紧凑性和效率（内存）。代码设计比实际执行更难 。因此，每一个程序员当用C语言编程时，都应该记着这些东西。本文向你介绍规范你的C代码的10种方法。
 
 ## 0. 避免不必要的函数调用
 
