@@ -8,11 +8,9 @@ description: 在线挑战或许更加方便
 
 推荐在线编程挑战网站：
 
-+ [TopCoder](http://www.topcoder.com/):一个程序设计比赛的网站。（English）
-
-+ [北大ACM](http://poj.org/):北京大学，在线挑战（English）
-
-+ [杭电ACM](http://acm.hdu.edu.cn/):杭州电子科技大学，在线挑战。（English）
++ [TopCoder](http://www.topcoder.com/）
++ [北大ACM](http://poj.org/)
++ [leetcode](http://leetcode.com/)
 
 重在坚持.
 

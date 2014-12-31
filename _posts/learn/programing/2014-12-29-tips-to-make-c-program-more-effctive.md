@@ -6,6 +6,7 @@ tag: c语言
 ---
 
 本文转载自：[http://www.oschina.net/news/20329/tips-to-make-c-program-effective/](http://www.oschina.net/news/20329/tips-to-make-c-program-effective/)
+
 原文链接：[http://www.fortystones.com/tips-to-make-c-program-effective/](http://www.fortystones.com/tips-to-make-c-program-effective/)
 
 任何代码的美丽不仅在于找到一个给定的问题的解决方案，但在它的简单性，有效性，紧凑性和效率（内存）。设计的代码比实际执行更难 。因此，每一个程序员当用C语言开发时，都应该保持这些基本的东西在头脑中。
@@ -209,4 +210,5 @@ void wild_example()
 
 ## 10、 永远记住释放你分配给程序的任何内存。上面的例子就是如果释放dp指针（我们使用malloc()函数调用）。
 
+编辑：smm
 
