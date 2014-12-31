@@ -2,7 +2,7 @@
 layout: post
 title: 编程练习
 category: learning
-tag: resource
+tag: [resource,programing]
 description: 在线挑战或许更加方便 
 ---
 
