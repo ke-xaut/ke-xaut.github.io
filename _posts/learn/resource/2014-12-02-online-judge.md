@@ -16,9 +16,10 @@ description: 在线学习或许更加方便
 
 + [codecademy](http://www.codecademy.com/learn):python,html,css,ruby等
 + [imooc](http://www.imooc.com/):java,javascript,html,css,linux等
++ [coursera](https://www.coursera.org/):名校公开课
 
 重在坚持.
 
-**欢迎补充**
+**本文档不定期更新，欢迎补充，补充方式见**[这里](http://xautkx.com/help-us)
 
 编辑：wy-ei
