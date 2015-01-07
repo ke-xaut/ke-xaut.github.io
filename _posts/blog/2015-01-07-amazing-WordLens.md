@@ -6,6 +6,7 @@ tag: 博客
 description: 一家名为Quest Visual的小型私人公司，它的旗下只有一款叫做Word Lens的翻译类应用
 ---
 
+
 ## 一款神奇的应用---Word Lens
 
 Google在2014年进行的一次收购。被收购的是一家名为Quest Visual的小型私人公司，它的旗下只有一款叫做Word Lens的翻译类应用。
@@ -23,11 +24,12 @@ Word Lens也是一款翻译应用，但实现方式有一些不同。它并不�
 </div>
 
 
+
 创始人Otavio Good称，开发这款应用的初衷是用来服务游客的，游客能够使用它来翻译路牌或是菜单。而且，Good认为，翻译结果必须在很短时间内就展现出来，如果时间过长，人们就不如查阅纸质词典或是使用其它的翻译应用了。而Word Lens把翻译时间控制在了20秒以内。
 
 在PingWest的试用过程中，Word Lens的翻译需要用到网络连接，确实可以实现快速地在拍摄画面内展现翻译结果。而且，针对拍摄画面不稳定会导致翻译结果时而出现时而消失的现象，应用还配有一个暂停按钮，点击它就可以把翻译结果固定显示在静态画面上。
 
-  ![wordlens](/images/blog/wordlens/wordlenscapture.jpg)
+![wordlens](/images/blog/wordlens/wordlenscapture.jpg)
 
 最初，Word Lens只能实现英语和西班牙语的互相翻译，后来，它加入了法语、波兰语、德语、俄罗斯语等多个语种。而且由于Google的收购，iOS版本中的应用内购买已经完全免费了。
 
