@@ -141,9 +141,11 @@ padding-left: 10px;}
 #disqus_container a.comment{font-size:14px;}
 #disqus_container{margin: 70px auto;}
 #tongji{height:0px;font-size:0px;}
+#tongji img {height: 0px;width: 0px;}
 #share{float: right;display: block;}
 
 /***********index************************************/
+#menuIndex {border-bottom:1px solid #ccc;margin-bottom:50px;}
 #menuIndex ul li+.h3{list-style: none;}
 #menuIndex ul .h3{margin-left: 40px;}
 #menuIndex ul li a{color: #000;}

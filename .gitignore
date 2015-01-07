@@ -1,2 +1,5 @@
-_drafts/
+_drafts/	
+build/
+server/
 _site/
+
