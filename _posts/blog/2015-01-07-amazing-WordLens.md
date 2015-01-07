@@ -6,7 +6,7 @@ tag: 博客
 description: 一家名为Quest Visual的小型私人公司，它的旗下只有一款叫做Word Lens的翻译类应用
 ---
 
-                                      ## 一款神奇的应用---Word Lens
+## 一款神奇的应用---Word Lens
 
 Google在2014年进行的一次收购。被收购的是一家名为Quest Visual的小型私人公司，它的旗下只有一款叫做Word Lens的翻译类应用。
 
