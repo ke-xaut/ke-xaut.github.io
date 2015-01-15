@@ -6,7 +6,7 @@ tag: 博客
 description: Web 并没有坐以待毙，它也正在发生巨变来应对 app 的威胁
 ---
 
-原文出处：[venturebeat.com]（http://venturebeat.com/2015/01/11/the-web-in-2015-your-favorite-shows-auto-cached-sites-that-adapt-to-your-environment-and-more/）
+原文出处：[venturebeat.com](http://venturebeat.com/2015/01/11/the-web-in-2015-your-favorite-shows-auto-cached-sites-that-adapt-to-your-environment-and-more/)
 
 Web 原来被设想为通用版的应用—可在任何地方运行的最低标准的应用，但这样的应用其“功能”受限于内容。
 
