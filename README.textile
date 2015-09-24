@@ -1,1 +1,1 @@
-h:(2. 这个仓库是我的github pages 的资源，你可以通过 http://xautkx.com/ 访问我们的网站。
+这是我们 github pages 的资源，你可以通过 http://xautkx.com/ 访问我们的网站。

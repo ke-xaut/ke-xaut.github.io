@@ -2,39 +2,36 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="/js/prettify/prettify.css"/>
 
-<div id="content">
-    <div class="entry">
-         <div class="entry-header">
-            <div class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></div>
-            <div class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</div>
+<section>
+    <article>
+        <header>
+           <time class="date"><i class="fa fa-calendar fa-fw"></i> {{ page.date|date:"%Y-%m-%d" }}</time>
+
+            <h1 class="title">{{ page.title }}
+            </h1>
+        </header>
+
+        <div class="content" id="content">
+            {{ content }}
         </div>
-        <div class="index"></div>   <!--js 在此插入目录-->
-        {{ content }}
-            <!-- share begin -->
-    <div id="share">{% include share %}</div>
-    <!--  share end  --> 
-        <div class="article-other-infor">
-        	<p><i class="fa fa-pencil fa-fw"></i>{{ page.date|date:"%Y.%m.%d" }} . {% if page.tags[0] %}<a href="/tags.html"><i class="fa fa-tag fa-fw"></i>{{ page.tags[0] }}</a>{% endif %}</p>   
 
-            {% if page.previous %}
-              <p><i class="fa fa-angle-double-left fa-fw"></i>上一篇：<a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></p>
-            {% endif %}
+        <footer>
+        {% if page.previous %}
+              <p class="lastpage"><i class="fa fa-angle-double-left fa-fw"></i>上一篇：<a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></p>
+        {% endif %}
 
-            {% if page.next %}
-              <p><i class="fa fa-angle-double-right fa-fw"></i>下一篇: <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a></p>
-            {% endif %}
-            <p><i class="fa fa-home fa-fw"></i><a href="/">返回首页</a></p>
-        </div> 
-    </div>
+        {% if page.next %}
+              <p class="nextpage">下一篇：<a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a><i class="fa fa-angle-double-right fa-fw"></i></p>
+        {% endif %}
+        </footer>
+    </article>
+</section>
 
-    <!-- comment begin -->     
-    {% include comment %}
+<section id="comment">
+    {% include comment %} 
     <div id="disqus_container">
-            <div class="ds-thread" data-thread-key={{ page.id }} data-title={{ page.title }} data-url="xautkx.com/{{ page.url }}"></div>
+        <div class="ds-thread" data-thread-key={{ page.id }} data-title={{ page.title }} data-url="wy-ei.com/{{ page.url }}"></div>        
     </div>
-    <!--  comment end  --> 
-</div>
-
+</section>
 

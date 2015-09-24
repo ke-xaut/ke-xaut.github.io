@@ -1,7 +1,7 @@
-auto: true
-
-markdown: rdiscount
-pygments: true
+markdown: redcarpet
+redcarpet:
+  extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough"]
+highlighter: pygments
 paginate: 100
 permalink: /:title
 

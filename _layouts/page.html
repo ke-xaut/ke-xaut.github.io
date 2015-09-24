@@ -1,16 +1,16 @@
 ---
-layout: default
+layout:           default
 ---
 
+<section id="page">
+    <article>
+        <header>
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.date|date:"%Y-%m-%d" }}</p> 
+        </header>
 
-<div id="content">
-    <div class="entry">
-         <div class="entry-header">
-            <div class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></div>
-            <div class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</div>
+        <div class="content" id="content">
+            {{ content }}
         </div>
-        {{ content }}
-
-    </div>
-</div>
-
+    </article>
+</section>

@@ -4,44 +4,35 @@ title: 首页
 ---
 
 
-
-<div class="index-content">
-    
-    <ul class="artical-list">
-
-
-    <h1>近期发布</h1>
+<div id="article-list">
+    <h1>近期发布</h1>  
+    <ul>
     {% for i in (0..3) %}
         <li>
-            <div class="title-date"><p class="date">{{ site.posts[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
-            <h2>
-                <a href="http://xautkx.com/{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
-            </h2>
-            <div class="title-desc">{{ site.posts[i].description }}</div>
+            <p class="date">{{ site.posts[i].date|date:"%Y-%m-%d" }} - <a href="{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
+            </p>
         </li>
     {% endfor %}
+    </ul>
 
-    <h1>近期博客</h1>
+
+    <h1>近期博客</h1>  
+    <ul>
     {% for i in (0..3) %}
         <li>
-            <div class="title-date"><p class="date">{{ site.categories.blog[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
-            <h2>
-                <a href="http://xautkx.com/{{ site.categories.blog[i].url }}">{{ site.categories.blog[i].title }}</a>
-            </h2>
-            <div class="title-desc">{{ site.categories.blog[i].description }}</div>
+            <p class="date">{{ site.categories.blog[i].date|date:"%Y-%m-%d" }} - <a href="{{ site.categories.blog[i].url }}">{{ site.categories.blog[i].title }}</a>
+            </p>
         </li>
     {% endfor %}
-    
-    <h1>近期通知</h1>
+    </ul>
+
+    <h1>近期通知</h1>  
+    <ul>
     {% for i in (0..3) %}
         <li>
-            <div class="title-date"><p class="date">{{ site.categories.notice[i].date|date:"%Y-%m-%d" }}</p><p class="arrow"> >> </p></div>
-            <h2>
-                <a href="http://xautkx.com/{{ site.categories.notice[i].url }}">{{ site.categories.notice[i].title }}</a>
-            </h2>
-            <div class="title-desc">{{ site.categories.notice[i].description }}</div>
+            <p class="date">{{ site.categories.notice[i].date|date:"%Y-%m-%d" }} - <a href="{{ site.categories.notice[i].url }}">{{ site.categories.notice[i].title }}</a>
+            </p>
         </li>
     {% endfor %}
     </ul>
 </div>
-            
