@@ -22,17 +22,33 @@ body a:hover{
 
 /* header layout */
 body>header{
-  width: 100%;
+    padding-top: 50px;
+  width: 60%;
+  margin: auto;
 }
 
 body>header div,nav{
-  width: 60%;
+  width: 100%;
   margin:auto;
+}
+
+header h1{
+    font-weight: lighter;
+}
+
+header h1>span{
+    display: none;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle
+
 }
 
 header nav{
   display: block;
-  padding: 10px 0 10px 0;
+  padding: 50px 0 10px 0;
   border-bottom: 1px solid #ccc;
 }
 
@@ -42,6 +58,7 @@ nav li i{
 
 header nav ul{
   list-style: none;
+  display: block;
   margin: 0;
 }
 header nav ul li{
@@ -236,6 +253,8 @@ p.lastpage a:hover,p.nextpage a:hover{
 
 body>footer{
   border-top:1px solid #ccc;
+  width: 60%;
+  margin: auto;
   margin-top: 100px;
 }
 
@@ -243,6 +262,7 @@ body>footer>p{
   width: 60%;
   margin:.2em auto;
   font-size:0.9em;
+  display: inline;
 }
 
 #tongji{
@@ -389,25 +409,63 @@ iframe[src*='music']{
 
 
 @media screen and (max-width: 900px){
-  body>header div,nav{
+  body>header{
     width: 95%;
     margin:auto;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  header nav{
+    padding: 0;
+    border: none;
+  }
+  header h1{
+    font-size: 15px;
+    line-height: 3em;
+
+  }
+  header h1>span{
+    display: block;
+    float: right;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  header nav ul{
+    width: 100%;
+    background-color: #fff;
+    display: none;
   }
   header nav ul li {
     padding-right: 10px;
+    padding: 10px 5px;
+    display: block;
+    border-top: 1px #ccc solid;
+  }
+  header nav ul li:hover{
+    cursor: pointer;
+    background-color: #ccc;
+  }
+  header nav ul li a{
+    display: block;
   }
   section {
     width: 95%;
     margin: auto;
   }
-  body>footer>p{
+  body>footer{
     width: 95%;
-    margin:.2em auto; 
+  }
+  body>footer>p{
+    line-height: 1.5em;
+    width: 95%;
+    display: block;
+    margin:0;
   }
 
   .content img{
     width: 100%;
   }
+
   
 }
 

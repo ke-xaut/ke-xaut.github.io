@@ -15,4 +15,20 @@ window.addEventListener("load",function(){
                 },80);
         });
     })();
+
+    (function(){
+        var dropDown = document.getElementById("drop-down");
+        var droped = false;
+        var nav = document.getElementById("drop-target");
+        dropDown.addEventListener("click",function(){
+            if(droped === false){
+                nav.style.display = 'block';
+                droped = true;
+            }else{
+                nav.style.display = 'none';
+                droped = false;
+            }
+            
+        })
+    })();
 });
