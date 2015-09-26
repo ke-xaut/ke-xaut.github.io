@@ -448,7 +448,7 @@ iframe[src*='music']{
     margin: auto;
   }
   body>footer{
-    width: 95%;
+    width: 100%;
   }
   body>footer>p{
     line-height: 1.5em;
