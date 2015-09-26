@@ -13,16 +13,15 @@ title: 关于
 
 ## 通讯地址
 
-<i class="fa fa-paper-plane fa-fw"></i>**Add:** 教五楼科协办公室
+Add : 教五楼科协办公室
 
-<i class="fa fa-phone fa-fw"></i>**Tel:** 029-82318560-8005
+Tel : 029-82318560-8005
 
 ## 联系方式
 
+邮箱 : xaut_auto_st@163.com
 
-<i class="fa fa-envelope fa-fw"></i>邮箱:xaut_auto_st@163.com
-
-<i class="fa fa-weixin fa-fw"></i>**微信：**扫描二维码关注微信平台
+微信 : 扫描二维码关注微信平台
 
 <img  style="width:200px;height:200px;margin: inherit;" src="images/icon/kexieweixin.jpg" />
 
