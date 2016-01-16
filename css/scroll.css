@@ -1,0 +1,154 @@
+#wrap{
+    width: 100%;
+}
+#container { 
+        width: 800px;
+         height: 500px; 
+         border: 3px solid #333;
+          overflow: hidden; 
+          position: relative;
+          margin: 0 auto;
+}
+#list {
+         width: 4000px;
+         height: 500px; 
+         position: absolute;
+         z-index: 1;
+}
+#list img { 
+        float: left;
+}
+#buttons { 
+        position: absolute; 
+        height: 10px; 
+        width: 100px; 
+        z-index: 2; 
+        bottom: 20px; 
+        left: 370px;
+}
+#buttons span { 
+        cursor: pointer; 
+        float: left; 
+        border: 1px solid #fff;
+        width: 10px; 
+        height: 10px; 
+        border-radius: 50%; 
+        background: #333; 
+        margin-right: 5px;
+}
+#buttons .on {  
+        background: orangered;
+}
+.arrow { 
+        cursor: pointer; 
+        display: none; 
+        line-height: 39px; 
+        text-align: center; 
+        font-size: 36px; 
+        font-weight: bold; 
+        width: 40px; 
+        height: 40px;  
+        position: absolute; 
+        z-index: 2; 
+        top: 230px; 
+        background-color: RGBA(0,0,0,.3); 
+        color: #fff;
+}
+.arrow:hover { 
+        background-color: RGBA(0,0,0,.7);
+}
+#container:hover .arrow { 
+        display: block;
+}
+#prev { 
+        left: 20px;
+}
+#next { 
+        right: 20px;
+}
+
+
+
+
+
+/*                                                                                        公告栏                                                                                                 */
+
+#lmooc ul {
+  list-style-type: none;           /*  去掉ul标签默认的点样式  */
+}
+a img {
+  border: none;        /*  超链接下，图片的边框  */
+}
+a {
+  color: #333;
+  text-decoration: none;     /* 超链接样式 */
+}
+a:hover {
+  color: #ff0000;
+}
+#mooc {
+  width: 300px;
+  border: 5px solid #ababab;
+  -moz-border-radius: 15px;      /* Gecko browsers */
+  -webkit-border-radius: 15px;   /* Webkit browsers */
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px #ababab;
+  margin: 0 auto;
+  text-align: left;               /* 让新闻内容靠左 */
+}
+/*  头部样式 */ 
+#moocTitle {
+  height: 62px;
+  overflow: hidden;  /* 这个一定要加上，内容超出的部分要隐藏，免得撑高头部 */
+  font-size: 26px;
+  line-height: 62px;
+  padding-left: 30px;
+  background-image: -moz-linear-gradient(top, #f05e6f, #c9394a); /* Firefox */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f05e6f), color-stop(1, #c9394a)); /* Saf4+, Chrome */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8fa1ff', endColorstr='#f05e6f', GradientType='0'); /* IE*/
+  border: 1px solid ##f05e6f;
+  -moz-border-radius: 8px 8px 0 0;      /* Gecko browsers */
+  -webkit-border-radius: 8px 8px 0 0;   /* Webkit browsers */
+  border-radius: 8px 8px 0 0;
+  color: #fff;
+  position: relative;
+}
+#moocTitle a {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: inline;
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+}
+/*  底部样式 */
+#moocBot {
+  width: 300px;
+  height: 10px;
+  overflow: hidden;     /* 这个一定要加上，内容超出的部分要隐藏，免得撑高底部结构 */
+}
+/*  中间样式 */
+#moocBox {
+  height: 144px;
+  width: 255px;
+  margin-left: 25px;
+  margin-top: 10px;
+  overflow: hidden;    /*  这个一定要加，超出的内容部分要隐藏，免得撑高中间部分 */
+}
+#mooc ul li {
+  height: 24px;
+}
+#mooc ul li a {
+  width: 180px;
+  float: left;
+  display: block;
+  overflow: hidden;
+  text-indent: 15px;
+  height: 24px;
+}
+#mooc ul li span {
+  float: right;
+  color: #999;
+}
+

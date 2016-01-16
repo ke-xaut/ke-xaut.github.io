@@ -2,7 +2,26 @@
 layout: page
 title: 首页
 ---
-
+<div id="wrap">
+    <div id="container">
+        <div id="list" style="left: -800px;">
+            <img src="images/img/33.png" alt="1"/>
+            <img src="images/img/11.png" alt="1"/>
+            <img src="images/img/22.png" alt="2"/>
+            <img src="images/img/33.png" alt="3"/>
+            <img src="images/img/11.png" alt="3"/>
+        </div>
+        <div id="buttons">
+            <span index="1" class="on"></span>
+            <span index="2"></span>
+            <span index="3"></span>
+    <!--         <span index="4"></span>
+            <span index="5"></span> -->
+        </div>
+        <a href="javascript:;" id="prev" class="arrow">&lt;</a>
+        <a href="javascript:;" id="next" class="arrow">&gt;</a>
+    </div>
+</div>
 
 <div id="article-list">
     <h1>近期发布</h1>  
@@ -35,4 +54,39 @@ title: 首页
         </li>
     {% endfor %}
     </ul>
+</div>
+
+<div id="sidebar">
+<!--     <p>ssss</p> -->
+         <div  id="mooc"> 
+        <h3 id="moocTitle">最新活动</h3>
+        <div  id="moocBox">
+            <ul id="con1" style="list-style-type: none; ">
+                <li style="list-style-type: none; "><a href="#">1.aaaa</a><span>11</span></li>
+                <li style="list-style-type: none; "><a href="#">2.bbbb</a><span>12</span></li>
+                <li style="list-style-type: none; "><a href="#">3.ccccc</a><span>13</span></li>
+                <li style="list-style-type: none; "><a href="#">4.dddd</a><span>14</span></li>
+                <li style="list-style-type: none; "><a href="#">5.eeee</a><span>15</span></li>
+            </ul>
+            <ul id="con2">
+            </ul>
+        </div>
+    </div>
+    <div id="icons">
+        <h2>快扫一扫关注我们的微信吧！</h2>
+         <img src="/images/icon/kexieweixin.jpg">
+    </div>
+   
+</div>
+<div style="clear:both"></div>
+
+<div id="contact">
+    <div id="banner">
+        <h2>Keep in Touch:</h2>
+        <ul>
+            <li>科协兴趣群:136395704</li>
+            <li>投 稿 邮 箱 :ke_xaut@163.com</li>
+            <li>微信公共号:西理工自动化科协</li>
+        </ul>
+    </div>
 </div>
