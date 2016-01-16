@@ -19,31 +19,52 @@ body a:hover{
   color: #E50053;
 }
 
-
+/*header background*/
+body>header{
+  background-image: url(/images/icon/kexielogo2.png);
+  background-position: 4% 2%;
+  background-repeat: no-repeat;
+}
 /* header layout */
 body>header{
-    padding-top: 50px;
-  width: 60%;
-  margin: auto;
+  padding-top: 30px;
+  width: 100%;
+  height: 85px;
+  /*margin: auto;*/
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 8px #DDD;
+  -moz-box-shadow: 0 0 8px #DDD;
+  -webkit-box-shadow: 0 0 8px #DDD;
+  overflow: none;
 }
 
-body>header div,nav{
-  width: 100%;
-  margin:auto;
-}
+
 
 header h1{
     font-weight: lighter;
+    padding-left: 200px;
+    display: block;
+    background: url(/images/pic1.gif) no-repeat;
+    background-position: 800px 0px;
+}
+header h2{
+    font-weight: lighter;
+    padding-left: 200px;
 }
 
 header h1.mob{
     display: none;
 }
+header h2.mob{
+    display: none;
+}
 
 header nav{
   display: block;
-  padding: 50px 0 10px 0;
-  border-bottom: 1px solid #ccc;
+  position: absolute;
+  left: 750px;
+  top:75px;
 }
 
 nav li i{
@@ -53,7 +74,6 @@ nav li i{
 header nav ul{
   list-style: none;
   display: block;
-  margin: 0;
 }
 header nav ul li{
   display: inline;  
@@ -62,10 +82,15 @@ header nav ul li{
 
 /* header color */
 
-body>header a,h1,h2{
+body>header a{
   color: #333;
 }
-
+body>header h1{
+  color: #F00;
+}
+body>header h2{
+  color: #CCC;
+}
 
 body>header a{
   text-decoration: none;
@@ -99,7 +124,7 @@ section {
 }
 
 section article{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 section article header{
@@ -119,12 +144,15 @@ section>article>header>h1{
 }
 
 
-.content h1,h2,h3,h4,h5,h6{
-  margin-bottom: 1.2em;
+.content h1,h3,h4,h5,h6{
+  margin-bottom: 1.0em;
 }
 
 .content h1{
+  display: block;
   font-size: 23px;
+  color: #F11;
+  width: 92px;
 }
 
 .content h2{
@@ -140,7 +168,7 @@ section>article>header>h1{
 }
 
 .content ol,.content ul{
-  margin: 2em 0;
+  margin: 1.3em 0;
 }
 
 .content ul li,.content ol li{
@@ -165,7 +193,7 @@ section>article>header>h1{
   text-indent: 0;
 }
 
-img#bg{
+/*img#bg{
   width: 100%;
 }
 
@@ -182,7 +210,7 @@ img#bg{
 .content img:hover{
   opacity: 0.67;
   cursor:pointer;
-}
+}*/
 
 .content blockquote{
   border-left:.2em solid #ccc;
@@ -256,6 +284,27 @@ body>footer>p{
 
 #page div#article-list{
   margin: 80px 0;
+  margin-left: 170px;
+  padding: 10px 30px 0px 30px;
+  float:left;
+  width: 50%;
+  /*background-color: blue;*/
+  border: 1px solid #DDD;
+    box-shadow: 0 0 10px #DDD;
+  -moz-box-shadow: 0 0 10px #DDD;
+  -webkit-box-shadow: 0 0 10px #DDD;
+
+  background-image: url(/images/divbg.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: 320px 0px;
+}
+#page div#sidebar{
+  margin: 80px 30px;
+  float:left;
+  width: 310px;
+ /* background-color: red;*/
+  border: 1px solid #DDD;
 }
 
 #page  ul{
@@ -464,4 +513,35 @@ iframe[src*='music']{
   }
 }
 
+#page{
+  width:100%;
+}
 
+#contact{
+  background: url(/images/banner-bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 310px;
+  position: relative;
+}
+#banner {
+    padding: 50px 0;
+    color: #f8f8f8;
+    position: absolute;
+    left:220px;
+    top:0px;
+}
+#banner h2{
+  display: block;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+#icons{
+  width:260px;
+  margin:  20px auto;
+}
+#icons h2{
+  display: inline;
+  color:#F00;
+}
