@@ -2,91 +2,115 @@
 layout: page
 title: 首页
 ---
-<div id="wrap">
-    <div id="container">
-        <div id="list" style="left: -800px;">
-            <img src="images/img/33.png" alt="1"/>
-            <img src="images/img/11.png" alt="1"/>
-            <img src="images/img/22.png" alt="2"/>
-            <img src="images/img/33.png" alt="3"/>
-            <img src="images/img/11.png" alt="3"/>
+
+<!-- Main -->
+<div id="main">
+	<div class="container" name="#homepage">
+		<div class="row">
+
+			<!-- Content -->
+			<div id="content1" class="8u skel-cell-important">
+				<section>
+					<header>
+						<h2>西安理工大学自动化院科协欢迎你</h2>
+					</header>
+					<a href="javascript:void(0);" class="image full"><img src="images/family.png" alt="" /></a>
+					<p style="text-indent: 2em;font-size: 13pt;">自动化学院学生科协是我校最早创办的学生社团之一，现已成为直属于院团委的一个独立发展部门，成为我院学生科技工作中的一个重要组织。 协会以“发扬求是学风，弘扬科学精神，营造科技氛围，培养创新意识，为本院培养助研队伍，为企业输送优秀的人才”为宗旨,以“科协我家”为口号。 自创办以来，本着“服务同学，培养同学科学思维方法及实际动手能力”的作风，培养了一批批具有较强动手能力的同学，也给同学们提供了大量切实的科技服务实践机会。</p>
+				</section>
+			</div>
+
+			<!-- Sidebar -->
+			<div id="sidebar" class="4u">
+				<section>
+					<header>
+						<h2 style="margin: 0px auto;width: 215px;">Notice&Bulletin</h2>
+					</header>
+					<ul class="style">
+					{% for i in (0..4) %}
+        						<li>
+							<p class="posted">{{ site.categories.notice[i].date|date:"%Y-%m-%d" }}</p>
+							<a href="{{  site.categories.notice[i].url }}">[详细]</a>
+							<p class="text">{{ site.categories.notice[i].description}}</p>
+						</li>
+    		     			 {% endfor %}
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<div id="featured">
+	<div class="container" name="#works">
+		<h2 class="hTitle">优秀学生作品</h2>
+		<div class="row">
+			<div class="4u">
+				<h2>硬件控制类</h2>
+				<a href="javascript:void(0);" class="image full"><img src="images/pic01.jpg" alt="" /></a>
+				<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque viverra vulputate enim.</p>
+				<p><a href="#" class="button">More Details</a></p>
+			</div>
+			<div class="4u">
+				<h2>电子电路类</h2>
+				<a href="javascript:void(0);" class="image full"><img src="images/pic02.jpg" alt="" /></a>
+				<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque viverra vulputate enim.</p>
+				<p><a href="#" class="button">More Details</a></p>
+			</div>
+			<div class="4u">
+				<h2>软件设计类</h2>
+				<a href="javascript:void(0);" class="image full"><img src="images/pic03.jpg" alt="" /></a>
+				<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque viverra vulputate enim.</p>
+				<p><a href="#" class="button">More Details</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <!-- Footer -->
+        <div id="footer">
+            <div class="container">
+            	   <h2 class="hTitle">优 秀 博 文</h2>
+                <div class="row">
+                    <div class="4u">
+                        <section>
+                            <h2>科技资讯</h2>
+                            <ul class="default">
+                            {% for i in (0..1) %}
+        			<li>
+            				<a href="{{  site.categories.news[i].url }}">{{  site.categories.news[i].title }}</a>
+            				<span>{{ site.categories.news[i].date|date:"%Y-%m-%d" }}</span>
+        			</li>
+    		   {% endfor %}
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="4u">
+                        <section>
+                            <h2>技术心得</h2>
+                            <ul class="default">
+                                {% for i in (0..1) %}
+        			<li>
+            				<a href="{{  site.categories.exp[i].url }}">{{  site.categories.exp[i].title }}</a>
+            				<span>{{ site.categories.exp[i].date|date:"%Y-%m-%d" }}</span>
+        			</li>
+    		      {% endfor %}
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="4u">
+                        <section>
+                            <h2>大牛之路</h2>
+                            <ul class="default">
+		   {% for i in (0..2) %}
+        			<li>
+            				<a href="{{  site.categories.blog[i].url }}">{{  site.categories.blog[i].title }}</a>
+            				<span>{{ site.categories.blog[i].date|date:"%Y-%m-%d" }}</span>
+        			</li>
+    		   {% endfor %}
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="buttons">
-            <span index="1" class="on"></span>
-            <span index="2"></span>
-            <span index="3"></span>
-    <!--         <span index="4"></span>
-            <span index="5"></span> -->
-        </div>
-        <a href="javascript:;" id="prev" class="arrow">&lt;</a>
-        <a href="javascript:;" id="next" class="arrow">&gt;</a>
-    </div>
-</div>
-
-<div id="article-list">
-    <h1>近期发布</h1>  
-    <ul>
-    {% for i in (0..3) %}
-        <li>
-            <p class="date">{{ site.posts[i].date|date:"%Y-%m-%d" }} - <a href="{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
-            </p>
-        </li>
-    {% endfor %}
-    </ul>
-
-
-    <h1>近期博客</h1>  
-    <ul>
-    {% for i in (0..3) %}
-        <li>
-            <p class="date">{{ site.categories.blog[i].date|date:"%Y-%m-%d" }} - <a href="{{ site.categories.blog[i].url }}">{{ site.categories.blog[i].title }}</a>
-            </p>
-        </li>
-    {% endfor %}
-    </ul>
-
-    <h1>近期通知</h1>  
-    <ul>
-    {% for i in (0..3) %}
-        <li>
-            <p class="date">{{ site.categories.notice[i].date|date:"%Y-%m-%d" }} - <a href="{{ site.categories.notice[i].url }}">{{ site.categories.notice[i].title }}</a>
-            </p>
-        </li>
-    {% endfor %}
-    </ul>
-</div>
-
-<div id="sidebar">
-<!--     <p>ssss</p> -->
-         <div  id="mooc"> 
-        <h3 id="moocTitle">最新活动</h3>
-        <div  id="moocBox">
-            <ul id="con1" style="list-style-type: none; ">
-                <li style="list-style-type: none; "><a href="#">1.aaaa</a><span>11</span></li>
-                <li style="list-style-type: none; "><a href="#">2.bbbb</a><span>12</span></li>
-                <li style="list-style-type: none; "><a href="#">3.ccccc</a><span>13</span></li>
-                <li style="list-style-type: none; "><a href="#">4.dddd</a><span>14</span></li>
-                <li style="list-style-type: none; "><a href="#">5.eeee</a><span>15</span></li>
-            </ul>
-            <ul id="con2">
-            </ul>
-        </div>
-    </div>
-    <div id="icons">
-        <h2>快扫一扫关注我们的微信吧！</h2>
-         <img src="/images/icon/kexieweixin.jpg">
-    </div>
-   
-</div>
-<div style="clear:both"></div>
-
-<div id="contact">
-    <div id="banner">
-        <h2>Keep in Touch:</h2>
-        <ul>
-            <li>科协兴趣群:136395704</li>
-            <li>投 稿 邮 箱 :ke_xaut@163.com</li>
-            <li>微信公共号:西理工自动化科协</li>
-        </ul>
-    </div>
-</div>

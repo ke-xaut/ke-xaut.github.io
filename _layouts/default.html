@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="author" content="kexie" />
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="/css/default.css" type="text/css" />
-    <link rel="stylesheet" href="/css/scroll.css" type="text/css" />
-     <script type="text/javascript" src="/js/scroll.js"></script>
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-    <!--google webmaster-->
-    <meta name="google-site-verification" content="4N8-15jWB8vo5VFL4KNTKewV2-jq8B88TaxBUTQvQu0" />
-    <!-- font-awesome -->
-    <link href="http://apps.bdimg.com/libs/fontawesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="kexie" />
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        <link href='http://fonts.useso.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+        <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="http://ajax.useso.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/skel-panels.min.js"></script>
+        <script src="js/init.js"></script>
+
+            <link rel="stylesheet" href="/css/skel-noscript.css" />
+            <link rel="stylesheet" href="/css/style.css" />
+            <link rel="stylesheet" href="/css/style-desktop.css" />
+
+        <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 </head>
-<body>
-    <header id="header">
-        <h1 class="pc">自动化与信息工程学院科学与技术协会</h1>
-        <h2 class="pc">www.xautkx.com</h2>
-        <h1 class="mob"><img src="/images/icon/kexielogo2.png"><span id="drop-down"><i class="fa fa-align-justify fa-fw"></i></span></h1>
-        <nav class="header-nav">
-            <ul id="drop-target">
-                  <li><a href="/"><i class="fa fa-home fa-fw"></i><span>主页</span></a> </li>
-                  <li><a href="/blog.html"><i class="fa fa-pencil-square fa-fw"></i><span>博客</span></a></li>
-                  <li><a href="/notice.html"><i class="fa fa-bullhorn fa-fw"></i><span>通知</span></a></li>
-                  <li><a href="/message.html"><i class="fa fa-comments fa-fw"></i><span>留言</span></a></li>
-                  <li><a href="/about.html"><i class="fa fa-paper-plane fa-fw"></i><span>关于</span></a></li>
-                  <!--<li><a href="/wiki.html"><i class="fa fa-bicycle fa-fw"></i><span>wiki</span></a></li> -->   
-            </ul>
-        </nav>
-    </header>
-    
+<body class="homepage">
+    <div id="header">
+            <div class="container">
+
+                <!-- Logo -->
+                <div id="logo">
+                    <h1><a href="#">西理工自动化科协</a></h1>
+                    <span>www.xautkx.com</span>
+                </div>
+
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li class="active"><a href="index.html#main">&nbsp;&nbsp;主&nbsp;&nbsp;&nbsp;页&nbsp;&nbsp;</a></li>
+                        <li class="active"><a href="index.html#featured">学生作品</a></li>
+                        <li class="active"><a href="index.html#footer">优秀博文</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+
 
         {{ content }}
 
 
-    <footer>
-        <p>Copyright &copy; 2014-2015.</p>
-        <p>Science and Technology Association.</p>
-    </footer>
 
-    <div id="tongji">
-        {% include tongji %}
-    </div>
-    <div id="toTop"></div>
-    <script type="text/javascript" src="/js/post.js"></script>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <div class="container">
+                西安理工大学-自动化与信息工程学院-科学与技术协会感谢各方对我协会的大力支持,如你有任何意见或者建议，请通过以下方式联系我们。<br>
+                通讯地址     Add : 教五楼负一层科协办公室,     Tel : 029-82318560-8005,       邮箱 : ke_xaut@163.com
+            </div>
+        </div>
+
 </body>
 </html>

@@ -4,6 +4,7 @@ title: 理奥杯科技节评审结果
 category: notice
 description: 理奥杯结果来啦，速速前来围观吧~
 tag: 通知
+author: 自动化科协
 ---
 
 
