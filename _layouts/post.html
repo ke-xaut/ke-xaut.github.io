@@ -1,37 +1,81 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="kexie" />
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        <link href='http://fonts.useso.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+        <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="http://ajax.useso.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="/js/skel.min.js"></script>
+        <script src="/js/skel-panels.min.js"></script>
+        <script src="/js/init.js"></script>
+        <script src="/js/post.js"></script>
 
 
-<section>
-    <article>
-        <header>
-           <time class="date"><i class="fa fa-calendar fa-fw"></i> {{ page.date|date:"%Y-%m-%d" }}</time>
+            <link rel="stylesheet" href="/css/skel-noscript.css" />
+            <link rel="stylesheet" href="/css/style.css" />
+            <link rel="stylesheet" href="/css/style-desktop.css" />
+            <link rel="stylesheet" href="/css/post.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+</head>
+<body class="homepage">
+    <div id="header" style="padding:50px 0;height:250px;">
+            <div class="container">
 
-            <h1 class="title">{{ page.title }}
-            </h1>
-        </header>
+                <!-- Logo -->
+                <div id="logo">
+                    <h1><a href="#" style="font-size:50px;">{{ page.title }}</a></h1>
+                    <span style="width:100%;border:none;">{{ page.description }}</span><br>
+                    <span style="padding-top:5px;border:none;">{{ page.author }}&nbsp;&nbsp;&nbsp;&nbsp;{{ page.date|date:"%Y-%m-%d" }}</span>
+                </div>
 
-        <div class="content" id="content">
-            {{ content }}
+            </div>
+    </div>
+
+        <div id="post">
+            <div id="inner">
+                {{ content }}
+
+                <footer>
+                {% if page.previous %}
+                <p class="lastpage">上一篇：<a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></p>
+                {% endif %}
+
+                {% if page.next %}
+                <p class="nextpage">下一篇：<a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a></p>
+                {% endif %}
+                </footer>
+            </div>
         </div>
 
-        <footer>
-        {% if page.previous %}
-              <p class="lastpage"><i class="fa fa-angle-double-left fa-fw"></i>上一篇：<a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></p>
-        {% endif %}
+        <!-- Copyright -->
+        <div id="copyright">
+            <div class="container">
+                西安理工大学-自动化与信息工程学院-科学与技术协会感谢各方对我协会的大力支持,如你有任何意见或者建议，请通过以下方式联系我们。<br>
+                通讯地址     Add : 教五楼负一层科协办公室,     Tel : 029-82318560-8005,       邮箱 : ke_xaut@163.com
+            </div>
+        </div>
 
-        {% if page.next %}
-              <p class="nextpage">下一篇：<a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a><i class="fa fa-angle-double-right fa-fw"></i></p>
-        {% endif %}
-        </footer>
-    </article>
-</section>
+        <!-- fixed -->
+        <table id="fixed">
+            <tr>
+                <td class="go"><a href="#header">返回<br>顶部</a></td>
+            </tr>
+            <tr class="showCode">
+                <td>扫二<br>维码</td>
+            </tr>
+            <tr>
+                <td class="go"><a href="/">返回<br>主页</a></td>
+            </tr>
+        </table>
 
-<section id="comment">
-    {% include comment %} 
-    <div id="disqus_container">
-        <div class="ds-thread" data-thread-key={{ page.id }} data-title={{ page.title }} data-url="wy-ei.com/{{ page.url }}"></div>        
-    </div>
-</section>
-
+        <div id="code">
+            <p>关注微信了解更多！</p>
+            <img src="/images/kexieweixin.jpg">
+        </div>
+</body>
+</html>
