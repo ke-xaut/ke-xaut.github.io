@@ -17,7 +17,8 @@
 
             <link rel="stylesheet" href="/css/skel-noscript.css" />
             <link rel="stylesheet" href="/css/style.css" />
-            <link rel="stylesheet" href="/css/style-desktop.css" />
+            <link rel="stylesheet"  href="/css/style-desktop.css" />
+            <link rel="stylesheet" media="max-width:800px" href="/css/style-mobile.css">
             <link rel="stylesheet" href="/css/post.css" />
         <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
@@ -28,8 +29,8 @@
 
                 <!-- Logo -->
                 <div id="logo">
-                    <h1><a href="#" style="font-size:50px;">{{ page.title }}</a></h1>
-                    <span style="width:100%;border:none;">{{ page.description }}</span><br>
+                    <h1><a href="#" >{{ page.title }}</a></h1>
+                    <span class="subtitle">{{ page.description }}</span><br>
                     <span style="padding-top:5px;border:none;">{{ page.author }}&nbsp;&nbsp;&nbsp;&nbsp;{{ page.date|date:"%Y-%m-%d" }}</span>
                 </div>
 
@@ -48,6 +49,7 @@
                 {% if page.next %}
                 <p class="nextpage">下一篇：<a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a></p>
                 {% endif %}
+                <br>
                 </footer>
             </div>
         </div>
