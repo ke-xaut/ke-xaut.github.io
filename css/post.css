@@ -87,12 +87,12 @@
 
 #logo h1 a{
 	font-size: 50px;
+	line-height: 90%;
 
 }
 @media (max-width: 800px) {
   #logo h1 a{
   	font-size: 30px;
-    	line-height: 90%;
   }
 }
 
