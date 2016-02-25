@@ -28,7 +28,6 @@
 	article
 	{
 		clear: both;
-		margin: 2em 0 2em 0 !important;
 	}
 
 	section > :first-child,
@@ -47,14 +46,14 @@
 	{
 		padding: 0em 2em;
 	}
-	
+
 	.button
 	{
 		display: block;
 		width: 100%;
 		text-align: center;
 	}
-	
+
 /*********************************************************************************/
 /* UI                                                                            */
 /*********************************************************************************/
@@ -118,12 +117,12 @@
 			border-top: solid 1px #1b1b1b;
 			padding: 0 1em 0 1em;
 		}
-		
+
 			#navPanel .link:first-child
 			{
 				border-top: 0;
 			}
-			
+
 			#navPanel .link.depth-0
 			{
 				color: #fff;
@@ -135,7 +134,7 @@
 			#navPanel .indent-4 { display: inline-block; width: 4em; }
 			#navPanel .indent-5 { display: inline-block; width: 5em; }
 			#navPanel .depth-0 { color: #fff; }
-			
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -154,21 +153,22 @@
 	{
 		margin-bottom: 3em;
 	}
-	
+
 		#logo h1
 		{
 			color: #FFF;
 		}
-	
+
 		#logo h1 a
 		{
 			display: block;
 			letter-spacing: 1px;
 			text-decoration: none;
 			text-transform: uppercase;
-			font-size: 3em;
+			font-size: 2.5em;
 			font-weight: 900;
 			color: #FFF;
+			line-height: 120%;
 		}
 
 		#logo span
@@ -179,13 +179,13 @@
 			text-transform: uppercase;
 			font-size: 1em;
 			color: rgba(255,255,255,.5);
-		}			
-	
+		}
+
 	#nav
 	{
 		display: none;
 	}
-	
+
 /*********************************************************************************/
 /* Main                                                                          */
 /*********************************************************************************/
@@ -198,53 +198,59 @@
 	#content
 	{
 	}
-	
+
 	#content header
 	{
 		margin-bottom: 2em;
 	}
-	
+
 	#content header h2
 	{
 		line-height: 1em;
 		font-size: 1.8em;
 	}
-	
+
 	#content header .byline
 	{
 		line-height: 1.5em;
 		font-size: 1.20em;
 	}
-	
+
 	#sidebar h2
 	{
 		display: block;
 		padding-bottom: 1em;
 		font-size: 1.4em;
 	}
-	
+
 
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
-	
+
 	#featured
 	{
 		padding: 4em 0em 4em 0em;
 	}
-	
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
-	
+
 	#footer
 	{
 		padding: 4em 0em 2em 0em;
 	}
-	
+
 	#footer h2
 	{
 		padding-bottom: 2em;
 		font-size: 1.4em;
 	}
-	
+
+#logo h1{
+	line-height:90%;
+}
+#logo span{
+	padding-top: 0;
+}

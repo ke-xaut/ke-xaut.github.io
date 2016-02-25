@@ -15,7 +15,6 @@
 /* Container */
 
 	body {
-		min-width: 1200px;
 	}
 
 	.container {
@@ -25,7 +24,7 @@
 	}
 
 	/* Modifiers */
-	
+
 		.container.small {
 			width: 900px;
 		}
