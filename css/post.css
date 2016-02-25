@@ -44,7 +44,7 @@
 }
 @media (max-width: 800px) {
   #fixed {
-    	right: 0px
+    	display: none;
   }
 }
 #fixed td{
@@ -105,4 +105,10 @@
   #logo span.subtitle{
   	padding-top: 0;
   }
+}
+
+@media (min-width: 800px) {
+	.mobileOnly{
+		display: none;
+	}
 }
