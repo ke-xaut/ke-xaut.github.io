@@ -296,7 +296,7 @@
 	#header
 	{
 		position: relative;
-		background: #2a2f27 url(../images/banner.jpg) no-repeat;
+		background: #2a2f27 url(http://7xk5u3.com1.z0.glb.clouddn.com/banner.jpg) no-repeat;
 		background-size: cover;
 	}
 
@@ -367,6 +367,10 @@
 		color: #FFF;
 	}
 
+	#footer a{
+		color: #FFF;
+	}
+
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
@@ -388,4 +392,37 @@
 	{
 		text-decoration: none;
 		color: rgba(255,255,255,.3);
+	}
+
+/*********************************************************************************/
+/* poster                                                                   */
+/*********************************************************************************/
+
+	#poster{
+		position: fixed;
+		left: 50%;
+		top:50%;
+		width: 420px;
+		height: 620px;
+		margin-left:-210px;
+		margin-top:-310px;
+		background-image: url(http://7xk5u3.com1.z0.glb.clouddn.com/0.jpg);
+		background-repeat: no-repeat;
+		background-size:420px 620px;
+		display: none;
+		z-index:1;
+	}
+
+/*********************************************************************************/
+/* mask                                                                   */
+/*********************************************************************************/
+	#mask{
+		width: 100%;
+		height: 100%;
+		background: #000;
+		display: none;
+		opacity: 0.6;
+		position: fixed;
+		top: 0;
+		left: 0;
 	}
