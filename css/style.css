@@ -406,13 +406,22 @@
 		height: 620px;
 		margin-left:-210px;
 		margin-top:-310px;
-		background-image: url(http://7xk5u3.com1.z0.glb.clouddn.com/6.jpg);
+		background-image: url(http://7xk5u3.com1.z0.glb.clouddn.com/5.jpg);
 		background-repeat: no-repeat;
 		background-size:420px 620px;
 		display: none;
 		z-index:1;
 	}
-
+	@media (max-width: 800px) {
+		#poster{
+			left: 10%;
+			top: 10%;
+			width: 80%;
+			height: 80%;
+			margin: 0;
+			background-size:100% 100%;
+		}
+	}
 /*********************************************************************************/
 /* mask                                                                   */
 /*********************************************************************************/
